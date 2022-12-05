@@ -70,10 +70,10 @@
 		
 		tri_layer {
 		bindings = <
-		&kp NUM_2  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &trans
-		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans 
-		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-					 &trans &trans  					&trans &trans 
+		&kp F1  &mkp F2    &mkp F3    &kp F4    &kp F5 			&kp LG(LBKT)   &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(RBKT) &trans
+		&kp F6 &kp F7 &kp F8 &kp F9 &kp F10  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
+		&kp F11  &kp F12  &trans  &trans  &trans   				&trans LCLK &kp PG_DN  &kp K_VOL_DN  &trans &trans   
+					 &to 0 &trans  					&sk RALT &to 1 
 		>;
 		};	
         
