@@ -46,16 +46,16 @@
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &td MINUS COMMA   &kp BKSP 
 		&kp I &kp S &hm LALT R &hm LGUI T &kp G 			   	&kp P &hm RGUI N &hm RALT E &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        	&kp B &kp H  &td UNDERSCORE SLASH &td EXCL DOT &kp X
-          				 &mo 2 &mt LC(LS(LALT)) SPC 				&sk BKSP &mo 1 
+          				 &mo 2 &mt LSHIFT SPC 				&mt RALT BKSP &mo 1 
 		>;
 		};
 
        		left_layer {
 		bindings = <
 		&kp ESC  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT		&kp CARET &kp AMPS &kp ASTRK &kp SEMI &kp BKSP 
-		&kp TAB    &kp EQUAL    &hm LALT MINUS      &hm LGUI SLASH     &kp SQT 		&kp BSLH &hm RGUI LBRC  &hm RALT RBRC &kp PIPE  &kp ENTER 
-		&kp TILDE    &kp GRAVE 	&kp UNDERSCORE &kp PLUS  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
-					    &to 0  &sk LSHIFT  					&sk RALT &to 2 
+		&kp TAB    &kp EQUAL    &hm LALT UP      &hm LGUI SLASH     &kp SQT 		&kp BSLH &hm RGUI LBRC  &hm RALT RBRC &kp PIPE  &kp ENTER 
+		&kp TILDE    &kp LEFT 	&kp DOWN &kp RIGHT  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
+					  &mo 2 &mt LSHIFT SPC 				&mt RALT BKSP &mo 1 
 		>;
 		};
 		
@@ -64,7 +64,7 @@
 		&kp ESC  &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp MINUS  &kp N7 &kp N8 &kp N9 &kp BKSP
 		&kp TAB  &trans   &kp C_VOL_DN  &kp C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &kp N4  &kp N5  &kp N6   &kp ENTER
 		&trans  &kp AMPS &kp SLASH &kp STAR &kp DOT    			&kp N0 &kp N1 &kp N2 &kp N3  &trans 
-					  &to 0 &sk LGUI  				&sk RALT  &to 2 
+					 &mo 2 &mt LSHIFT SPC 				&mt RALT BKSP &mo 1 
 		>;
 		};	
 		
