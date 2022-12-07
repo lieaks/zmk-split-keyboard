@@ -52,9 +52,9 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &kp SEMI &kp BKSP 
-		&kp TAB    &kp EQUAL    &hm LALT UP      &hm LGUI SLASH     &kp SQT 	&kp BSLH &hm RGUI LBRC  &hm RALT RBRC &kp PIPE  &kp ENTER 
-		&kp TILDE    &kp LEFT 	&kp DOWN &kp RIGHT  &kp DQT 			&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
+		&kp ESC  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &kp SEMI &kp DEL 
+		&kp TAB  &kp EQUAL  &hm LALT BSLH  &hm LGUI SLASH  &kp SQT 		&kp LEFT &hm RGUI DOWN &hm RALT UP &kp RIGHT &kp ENTER 
+		&kp TILDE    &kp LBRC 	&kp RBRC &kp PIPE  &kp DQT 			&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
 					  &mo 2 &mt LCTRL SPC 				&mt RSHIFT BKSP &mo 1 
 		>;
 		};
