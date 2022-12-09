@@ -46,7 +46,7 @@
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &td MINUS COMMA  &kp SQT 
 		&kp I &kp S &hm LALT R &hm LGUI T &kp G 			   	&kp P &hm RGUI N &hm RALT E &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        	&kp B &kp H  &td UNDERSCORE SLASH &td EXCL DOT &kp X
-          				 &mo 2 &mt LCTRL SPC 				&mt RSHIFT BKSP &mo 1 
+          				 &lt 2 ESC &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 ENTER
 		>;
 		};
 
@@ -55,7 +55,7 @@
 		&kp ESC  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &td COLON SEMI &kp DEL 
 		&kp TAB  &kp EQUAL  &hm LALT BSLH  &hm LGUI PIPE  &kp SQT 		&kp LEFT &hm RGUI DOWN &hm RALT UP &kp RIGHT &kp ENTER 
 		&kp TILDE    &kp GRAVE 	&kp  LBRC &kp RBRC  &kp DQT 			&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
-					  &mo 2 &mt LCTRL SPC 				&mt RSHIFT BKSP &mo 1 
+					  &lt 2 ESC &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 ENTER
 		>;
 		};
 		
@@ -64,7 +64,7 @@
 		&kp ESC  &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp MINUS  &kp N7 &kp N8 &kp N9 &kp BKSP
 		&kp TAB  &trans   &kp C_VOL_DN  &kp C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &kp N4  &kp N5  &kp N6   &kp ENTER
 		&trans  &kp AMPS &kp SLASH &kp STAR &kp DOT    			&kp N0 &kp N1 &kp N2 &kp N3  &trans 
-					&mo 2 &mt LCTRL SPC 				&mt RSHIFT BKSP &mo 1 
+					 &lt 2 ESC &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 ENTER
 		>;
 		};	
 		
