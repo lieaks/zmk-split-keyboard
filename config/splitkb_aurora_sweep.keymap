@@ -20,7 +20,7 @@
 	combo_e_grave {
 	timeout-ms = <30>;
 	key-positions = <17 18>;
-	binding = <&e_grave>;
+	bindings = <&e_grave>;
 	};
     };
 	
