@@ -19,7 +19,7 @@
 	compatible = "zmk,combos";
 	combo_e_grave {
 	timeout-ms = <30>;
-	key-positions = <17 18>;
+	key-positions = <1 2>;
 	bindings = <&e_grave>;
 	};
     };
