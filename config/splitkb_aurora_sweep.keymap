@@ -16,8 +16,8 @@
 
 / {
 	macros {
-	e_grave: e_grave {
-	label = "e_grave";
+	e_aigu: e_aigu {
+	label = "e_aigu";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
 	bindings
@@ -25,15 +25,31 @@
 	, <&macro_tap &kp E>
 	, <&macro_release &kp RALT>
 	, <&macro_tap &kp E>;
+	};		
+	e_grave: e_grave {
+	label = "e_grave";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings
+	= <&macro_press &kp RALT>
+	, <&macro_tap &kp GRAVE>
+	, <&macro_release &kp RALT>
+	, <&macro_tap &kp E>;
 	};
      };
      
 	combos {
 	compatible = "zmk,combos";
+	combo_e_aigu {
+	timeout-ms = <30>;
+	key-positions = <18 19>;
+	bindings = <&e_aigu>;
+	};
+	
 	combo_e_grave {
 	timeout-ms = <30>;
-	key-positions = <1 2>;
-	bindings = <&e_grave &kp a>;
+	key-positions = <17 18>;
+	bindings = <&e_grave>;
 	};
     };
 
