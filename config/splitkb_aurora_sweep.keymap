@@ -36,7 +36,7 @@
 	, <&macro_release &kp RALT>
 	, <&macro_tap &kp E>;
 	};
-	e_grave: e_circ {
+	e_circ: e_circ {
 	label = "e_circ";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
@@ -45,6 +45,16 @@
 	, <&macro_tap &kp I>
 	, <&macro_release &kp RALT>
 	, <&macro_tap &kp E>;
+	};
+	a_grave: a_grave {
+	label = "a_grave";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings
+	= <&macro_press &kp RALT>
+	, <&macro_tap &kp GRAVE>
+	, <&macro_release &kp RALT>
+	, <&macro_tap &kp A>;
 	};
      };
      
@@ -65,6 +75,11 @@
 	timeout-ms = <30>;
 	key-positions = <16 17 18>;
 	bindings = <&e_circ>;
+	};
+	combo_a_grave {
+	timeout-ms = <30>;
+	key-positions = <17 18>;
+	bindings = <&a_grave>;
 	};
     };
 
