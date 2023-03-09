@@ -66,6 +66,16 @@
 	, <&macro_release &kp RALT>
 	, <&macro_tap &kp U>;
 	};
+	o_circ: o_circ {
+	label = "o_circ";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings
+	= <&macro_press &kp RALT>
+	, <&macro_tap &kp I>
+	, <&macro_release &kp RALT>
+	, <&macro_tap &kp O>;
+	};
      };
      
 	combos {
@@ -95,6 +105,11 @@
 	timeout-ms = <30>;
 	key-positions = <6 7>;
 	bindings = <&u_grave>;
+	};
+	combo_o_circ {
+	timeout-ms = <30>;
+	key-positions = <17 18 19>;
+	bindings = <&o_circ>;
 	};
     };
 
