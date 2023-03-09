@@ -33,7 +33,7 @@
 	combo_e_grave {
 	timeout-ms = <30>;
 	key-positions = <1 2>;
-	bindings = <&e_grave>;
+	bindings = <&e_grave &kp a>;
 	};
     };
 
