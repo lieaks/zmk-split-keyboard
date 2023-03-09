@@ -56,6 +56,16 @@
 	, <&macro_release &kp RALT>
 	, <&macro_tap &kp A>;
 	};
+	u_grave: u_grave {
+	label = "u_grave";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings
+	= <&macro_press &kp RALT>
+	, <&macro_tap &kp GRAVE>
+	, <&macro_release &kp RALT>
+	, <&macro_tap &kp U>;
+	};
      };
      
 	combos {
@@ -78,8 +88,13 @@
 	};
 	combo_a_grave {
 	timeout-ms = <30>;
-	key-positions = <17 18>;
+	key-positions = <18 19>;
 	bindings = <&a_grave>;
+	};
+	combo_u_grave {
+	timeout-ms = <30>;
+	key-positions = <6 7>;
+	bindings = <&u_grave>;
 	};
     };
 
