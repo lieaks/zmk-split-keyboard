@@ -103,7 +103,7 @@
 	bindings = <&e_grave>;
 	};
 	combo_e_circ {
-	timeout-ms = <30>;
+	timeout-ms = <50>;
 	key-positions = <16 17 18>;
 	bindings = <&e_circ>;
 	};
@@ -118,12 +118,12 @@
 	bindings = <&u_grave>;
 	};
 	combo_o_circ {
-	timeout-ms = <30>;
+	timeout-ms = <50>;
 	key-positions = <17 18 19>;
 	bindings = <&o_circ>;
 	};
 	combo_i_circ {
-	timeout-ms = <30>;
+	timeout-ms = <50>;
 	key-positions = <10 11 12>;
 	bindings = <&i_circ>;
 	};
