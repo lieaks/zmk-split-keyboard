@@ -19,7 +19,7 @@
 	e_grave: e_grave {
 	label = "e_grave";
 	compatible = "zmk,behavior-macro";
-	binding-cells = <0>;
+	#binding-cells = <0>;
 	bindings
 	= <&macro_press &kp RALT>
 	, <&macro_tap &kp E>
