@@ -111,6 +111,11 @@
 	key-positions = <17 18 19>;
 	bindings = <&o_circ>;
 	};
+	combo_repeat {
+	timeout-ms = <30>;
+	key-positions = <12 13>;
+	bindings = <key_repeat>;
+	};
     };
 
 	behaviors {
