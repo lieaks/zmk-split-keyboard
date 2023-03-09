@@ -14,7 +14,20 @@
     tapping_term_ms = <200>;
 };
 
-/ { 
+/ {
+	macros {
+	e_grave: e_grave {
+	label = "e_grave";
+	compatible = "zmk,behavior-macro";
+	binding-cells = <0>;
+	bindings
+	= <&macro_press &kp RALT>
+	, <&macro_tap &kp E>
+	, <&macro_release &kp RALT>
+	, <&macro_tap &kp E>;
+	}
+     };
+     
 	combos {
 	compatible = "zmk,combos";
 	combo_e_grave {
@@ -23,21 +36,7 @@
 	bindings = <&e_grave>;
 	};
     };
-	
-	macros {
-	e_grave: e_grave {
-	label = "e_grave";
-	compatible = "zmk,behavior-macro";
-	#binding-cells = <0>;
-	bindings
-	= <&macro_press &kp RALT>
-	, <&macro_tap &kp E>
-	, <&macro_release &kp RALT>
-	, <&macro_tap &kp E>;
-	};
 
-     };
-	
 	behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
