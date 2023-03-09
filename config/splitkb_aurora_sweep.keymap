@@ -124,7 +124,7 @@
 	};
 	combo_i_circ {
 	timeout-ms = <30>;
-	key-positions = <17 18 19>;
+	key-positions = <10 11 12>;
 	bindings = <&i_circ>;
 	};
     };
