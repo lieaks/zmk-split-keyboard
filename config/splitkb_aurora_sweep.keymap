@@ -109,7 +109,7 @@
 	};
 	combo_a_grave {
 	timeout-ms = <30>;
-	key-positions = <18 19>;
+	key-positions = <26 27>;
 	bindings = <&a_grave>;
 	};
 	combo_u_grave {
