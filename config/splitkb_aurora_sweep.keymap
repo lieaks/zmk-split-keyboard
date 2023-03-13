@@ -165,7 +165,7 @@
        		left_layer {
 		bindings = <
 		&kp GRAVE  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &td COLON SEMI &kp DEL 
-		&kp TAB  &kp EQUAL  &hm LALT BSLH  &hm LGUI PIPE  &trans 		&kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+		&kp TAB  &kp EQUAL  &hm LALT BSLH  &hm LGUI PIPE  &trans 		&kp LEFT &kp DOWN &kp UP &kp RIGHT &kp ENTER
 		&kp TILDE    &hm RBKT LBKT &hm RBRC LBRC &hm RPRN LPRN  &kp DQT 	&kp GRAVE &hm RGUI RPRN &hm RALT RBRC &kp RBKT  &to 3 
 					  &lt 2 ESC &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 ENTER
 		>;
