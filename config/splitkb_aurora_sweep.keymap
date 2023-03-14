@@ -126,6 +126,11 @@
 	key-positions = <10 11 12>;
 	bindings = <&i_circ>;
 	};
+	combo_capslock {
+	timeout-ms = <30>;
+	key-positions = <2 3>;
+	bindings = <&kp CAPSLOCK>;
+	};
     };
 
 	behaviors {
