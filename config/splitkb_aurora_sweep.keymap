@@ -129,7 +129,7 @@
 	combo_capslock {
 	timeout-ms = <30>;
 	key-positions = <2 3>;
-	bindings = <&kp CAPSLOCK>;
+	bindings = <&kp CAPS>;
 	};
     };
 
