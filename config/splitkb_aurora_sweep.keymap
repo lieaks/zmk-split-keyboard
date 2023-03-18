@@ -163,7 +163,7 @@
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp SQT
 		&hm LCTRL I &hm LSHIFT S &hm LALT R &hm LGUI T &kp G 			   	&kp P &kp N &kp E &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        	&kp B &hm RGUI H  &hm RALT SLASH &td EXCL DOT &kp X
-          				 &lt 2 ESC &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 ENTER
+          				 &mt LCTRL ESC &lt 2 SPC			&lt 1 BKSP &mt RSHIFT ENTER
 		>;
 		};
 
@@ -172,7 +172,7 @@
 		&kp GRAVE  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &td COLON SEMI &kp DEL 
 		&kp TAB  &kp EQUAL  &hm LALT BSLH  &hm LGUI PIPE  &trans 		&kp LEFT &kp DOWN &kp UP &kp RIGHT &kp ENTER
 		&kp TILDE    &hm RBKT LBKT &hm RBRC LBRC &hm RPRN LPRN  &kp DQT 	&kp GRAVE &hm RGUI RPRN &hm RALT RBRC &kp RBKT  &to 3 
-					  &lt 2 TAB &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 ENTER
+					 &mt LCTRL TAB &lt 2 SPC			&lt 1 BKSP &mt RSHIFT ENTER
 		>;
 		};
 		
@@ -181,7 +181,7 @@
 		&key_repeat &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp SLASH  &kp N7 &kp N8 &kp N9 &kp MINUS
 		&kp TAB  &trans   &hm LALT C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 		&kp EQUAL &hm RGUI N4  &hm RALT N5  &kp N6  &kp LS(EQUAL)
 		&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   		&kp ASTRK &kp N1 &kp N2 &kp N3  &trans 
-					 &lt 2 ESC &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 N0
+					&mt LCTRL TAB &lt 2 SPC					&lt 1 BKSP &mt RSHIFT N0
 		>;
 		};	
 		
