@@ -160,6 +160,13 @@
             tapping-term-ms = <200>;
             bindings = <&mt RGUI N>, <&kp N>;
         };
+	td_ralt: td_ralt {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_ralt";
+            binding-cells = <17>;
+            tapping-term-ms = <200>;
+            bindings = <&mt RALT E>, <&kp E>;
+        };
     };
 
         keymap {
