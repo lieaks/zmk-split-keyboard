@@ -157,7 +157,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_rgui";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             bindings = <&mt RGUI N>, <&kp N>;
         };
 	td_ralt: td_ralt {
