@@ -151,14 +151,14 @@
             tapping-term-ms = <150>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>
+            bindings = <&kp>, <&kp>;
         };
 	td_rgui_n : td_rgui_n {
             compatible = "zmk,behavior-tap-dance";
             label = "td_rgui_n";
             #binding-cells = <16>;
             tapping-term-ms = <200>;
-            bindings = <&mt RGUI N>, <&kp N>
+            bindings = <&mt RGUI N>, <&kp N>;
         };
     };
 
