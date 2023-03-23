@@ -174,13 +174,11 @@
             tapping-term-ms = <180>;
             bindings = <&mt RSHIFT BKSP>, <&kp BKSP>;
         };
-	td_spc: tapdance {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TAPDANCE";
-            #binding-cells = <2>;
-            tapping-term-ms = <190>;
-            quick-tap-ms = <250>;
-            flavor = "tap-preferred";
+	td_spc: td_spc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_spc";
+            #binding-cells = <0>;
+            tapping-term-ms = <180>;
             bindings = <&mt LCTRL SPC>, <&kp SPC>;
         };
     };
