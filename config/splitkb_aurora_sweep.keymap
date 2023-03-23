@@ -153,7 +153,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	td_rgui_n : td_rgui_n {
+	td_rgui_n: td_rgui_n {
             compatible = "zmk,behavior-tap-dance";
             label = "td_rgui_n";
             #binding-cells = <16>;
