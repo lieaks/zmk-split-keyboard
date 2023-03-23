@@ -157,15 +157,15 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_rgui";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
-            bindings = <&hm RGUI N>, <&kp N>;
+            tapping-term-ms = <180>;
+            bindings = <&mt RGUI N>, <&kp N>;
         };
 	td_ralt: td_ralt {
             compatible = "zmk,behavior-tap-dance";
             label = "td_ralt";
             #binding-cells = <0>;
             tapping-term-ms = <180>;
-            bindings = <&hm RALT E>, <&kp E>;
+            bindings = <&mt RALT E>, <&kp E>;
         };
 	td_bksp: td_bksp {
             compatible = "zmk,behavior-tap-dance";
