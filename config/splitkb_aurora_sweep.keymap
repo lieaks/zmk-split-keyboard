@@ -158,14 +158,21 @@
             label = "td_rgui";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
-            bindings = <&mt RGUI N>, <&kp N>;
+            bindings = <&hm RGUI N>, <&kp N>;
         };
 	td_ralt: td_ralt {
             compatible = "zmk,behavior-tap-dance";
             label = "td_ralt";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
             bindings = <&hm RALT E>, <&kp E>;
+        };
+	td_bksp td_bksp {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_bksp";
+            #binding-cells = <0>;
+            tapping-term-ms = <180>;
+            bindings = <&mt RSHIFT BKSP>, <&kp BKSP>;
         };
     };
 
@@ -177,7 +184,7 @@
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp SQT
 		&hm LCTRL I &hm LSHIFT S &hm LALT R &hm LGUI T &kp G 			   	&kp P &td_rgui &td_ralt &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        	&kp B &hm RGUI H  &hm RALT SLASH &td EXCL DOT &kp X
-          				&lt 2 ESC &mt LCTRL SPC 			&mt RSHIFT BKSP &lt 1 ENTER
+          				&lt 2 ESC &mt LCTRL SPC 			&td_bksp &lt 1 ENTER
 		>;
 		};
 
