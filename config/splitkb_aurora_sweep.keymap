@@ -167,7 +167,7 @@
             tapping-term-ms = <180>;
             bindings = <&hm RALT E>, <&kp E>;
         };
-	td_bksp td_bksp {
+	td_bksp: td_bksp {
             compatible = "zmk,behavior-tap-dance";
             label = "td_bksp";
             #binding-cells = <0>;
