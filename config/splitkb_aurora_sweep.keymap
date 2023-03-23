@@ -158,7 +158,7 @@
             label = "td_rgui";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LSHIFT CAPSLOCK>, <&kp LCTRL>;
+            bindings = <&mt RGUI N>, <&kp N>;
         };
     };
 
