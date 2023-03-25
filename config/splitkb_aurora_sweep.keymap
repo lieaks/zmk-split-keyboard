@@ -158,19 +158,22 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+	td_ralt: td_ralt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "td_ralt";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+            global-quick-tap;
+            bindings = <&mt RALT E>, <&kp E>;
+        };
 	td_rgui: td_rgui {
             compatible = "zmk,behavior-tap-dance";
             label = "td_rgui";
             #binding-cells = <0>;
             tapping-term-ms = <180>;
             bindings = <&mt RGUI N>, <&kp N>;
-        };
-	td_ralt: td_ralt {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_ralt";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&mt RALT E>, <&kp E>;
         };
 	td_bksp: td_bksp {
             compatible = "zmk,behavior-tap-dance";
