@@ -158,15 +158,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	td_ralt: td_ralt {
-            compatible = "zmk,behavior-hold-tap";
-            label = "td_ralt";
+	gqt: global-quick-tap {
+    	    compatible = "zmk,behavior-hold-tap";
+   	    label = "GLOBAL_QUICK_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <125>;
             global-quick-tap;
-            bindings = <&mt RALT E>, <&kp E>;
+            bindings = <&kp>, <&kp>;
         };
 	td_rgui: td_rgui {
             compatible = "zmk,behavior-tap-dance";
@@ -197,7 +197,7 @@
        		default_layer {
 		bindings = <
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp SQT
-		&hm LCTRL I &hm LSHIFT S &hm LALT R &hm LGUI T &kp G 			   	&kp P &td_rgui &td_ralt &kp A &kp O
+		&hm LCTRL I &hm LSHIFT S &hm LALT R &hm LGUI T &kp G 			   	&kp P &gqt RGUI N &td_ralt &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        	&kp B &hm RGUI H  &hm RALT SLASH &td EXCL DOT &kp X
           				&lt 2 ESC &td_spc			&td_bksp &lt 1 ENTER
 		>;
