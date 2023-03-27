@@ -164,7 +164,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            quick-tap-ms = <125>;
+            quick-tap-ms = <160>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
@@ -197,7 +197,7 @@
        		default_layer {
 		bindings = <
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp SQT
-		&hm LCTRL I &hm LSHIFT S &hm LALT R &gqt LGUI T &kp G 			   	&kp P &gqt RGUI N &gqt RALT E &kp A &kp O
+		&gqt LCTRL I &gqt LSHIFT S &gqt LALT R &gqt LGUI T &kp G 			   	&kp P &gqt RGUI N &gqt RALT E &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        	&kp B &hm RGUI H  &hm RALT SLASH &td EXCL DOT &kp X
           				&lt 2 ESC &gqt LCTRL SPC			&gqt RSHIFT BKSP &lt 1 ENTER
 		>;
