@@ -131,7 +131,7 @@
 	key-positions = <2 3>;
 	bindings = <&kp CAPS>;
 	};
-	combo_capslock {
+	combo_tab {
 	timeout-ms = <30>;
 	key-positions = <10 11>;
 	bindings = <&kp TAB>;
