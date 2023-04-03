@@ -183,7 +183,7 @@
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp SQT
 		&gqt LCTRL I &gqt LSHIFT S &gqt LALT R &gqt LGUI T &kp G 	  	&kp P &gqt RGUI N &gqt RALT E &gqt RSHIFT A &gqt RCTRL O
 		&kp Q &kp V &kp W &kp D &kp J				        	&kp B &kp H  &kp SLASH &td EXCL DOT &kp X
-          				&lt 2 ESC &gqt LCTRL SPC			&gqt RSHIFT BKSP &lt 1 ENTER
+          				&lt 1 ESC &gqt LCTRL SPC			&gqt RSHIFT BKSP &lt 2 ENTER
 		>;
 		};
 
@@ -192,16 +192,16 @@
 		&kp GRAVE  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &td COLON SEMI &kp DEL 
 		&kp TAB  &kp EQUAL  &gqt LALT BSLH  &gqt LGUI PIPE  &none 		&kp LEFT &kp DOWN &kp UP &kp RIGHT &kp ENTER
 		&kp TILDE    &hm RBKT LBKT &hm RBRC LBRC &hm RPRN LPRN  &kp DQT 	&kp GRAVE &hm RGUI RPRN &hm RALT RBRC &kp RBKT  &to 3 
-					  &lt 2 TAB &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 ENTER
+					  &lt 1 TAB &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 2 ENTER
 		>;
 		};
 		
 		right_layer {
 		bindings = <
-		&key_repeat &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp SLASH  &kp N7 &kp N8 &kp N9 &kp MINUS
-		&kp TAB  &trans   &hm LALT C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 		&kp EQUAL &hm RGUI N4  &hm RALT N5  &kp N6  &kp LS(EQUAL)
-		&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   		&kp ASTRK &kp N1 &kp N2 &kp N3  &trans 
-					 &lt 2 ESC &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 1 N0
+		&kp SLASH  &kp N7 &kp N8 &kp N9 &kp MINUS				&key_repeat &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			
+		&kp TAB &hm RGUI N4  &hm RALT N5  &kp N6  &kp LS(EQUAL)			&kp TAB  &trans   &hm LALT C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 		
+		&kp ASTRK &kp N1 &kp N2 &kp N3  &trans					&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   		
+					 &lt 1 N0 &mt LCTRL SPC 				&mt RSHIFT BKSP &lt 2 ENTER
 		>;
 		};	
 		
