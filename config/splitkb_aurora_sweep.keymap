@@ -139,7 +139,7 @@
 	combo_nav {
 	timeout-ms = <30>;
 	key-positions = <30 33>;
-	bindings = <&to 3>;
+	bindings = <&key_repeat>;
 	};
     };
 
