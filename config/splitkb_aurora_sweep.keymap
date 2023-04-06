@@ -141,6 +141,11 @@
 	key-positions = <30 33>;
 	bindings = <&key_repeat>;
 	};
+	combo_enter {
+	timeout-ms = <30>;
+	key-positions = <18 19>;
+	bindings = <&key_repeat>;
+	};
     };
 
 	behaviors {
