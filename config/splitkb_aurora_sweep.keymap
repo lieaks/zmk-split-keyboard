@@ -196,7 +196,7 @@
 		bindings = <
 		&kp GRAVE  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &td COLON SEMI &kp DEL 
 		&kp TAB  &gqt LSHIFT EQUAL  &gqt LALT BSLH  &gqt LGUI PIPE  &none 		&none &none &none &none &kp ENTER
-		&kp TILDE    &hm RBKT LBKT &hm RBRC LBRC &hm RPRN LPRN  &kp DQT 	&kp GRAVE &hm RGUI RPRN &hm RALT RBRC &kp RBKT  &to 3 
+		&kp TILDE    &hm RBKT LBKT &hm RBRC LBRC &hm RPRN LPRN  &kp DQT 	&kp GRAVE &hm RGUI RPRN &hm RALT RBRC &kp RBKT  &none 
 					  &lt 2 TAB &kp BKSP 				&kp SPC &lt 1 ENTER
 		>;
 		};
@@ -206,7 +206,7 @@
 		&key_repeat &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp SLASH  &kp N7 &kp N8 &kp N9 &kp MINUS	
 		&kp TAB  &trans   &hm LALT C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 		&kp EQUAL &gqt RGUI N4  &gqt RALT N5  &kp N6  &gqt RCTRL LS(EQUAL)			
 		&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 		  	&kp ASTRK &kp N1 &kp N2 &kp N3  &none
-					 &lt 2 ESC &kp BKSP 				&kp SPC &lt 1 N0
+					 &lt 2 ESC &kp BKSP 				&key_repeat &lt 1 N0
 		>;
 		};	
 		
@@ -215,7 +215,7 @@
 		&kp F1  &kp F2    &kp F3    &kp F4    &kp F5 				&kp PAGE_UP &none   &none &none &none
 		&kp F6 &kp F7 &kp F8 &kp F9 &kp F10  					&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&kp F11  &kp F12  &none  &none  &none   				&kp PAGE_DOWN  &none  &none  &none &none   
-					 &to 0 &to 0  					&to 0 &to 0 
+					 &to 0 &to 0  					&key_repeat &to 0 
 		>;
 		};	
         
