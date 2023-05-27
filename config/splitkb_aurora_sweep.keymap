@@ -197,7 +197,7 @@
 		&kp GRAVE  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &td COLON SEMI &kp DEL 
 		&kp TAB  &gqt LSHIFT EQUAL  &gqt LALT BSLH  &gqt LGUI PIPE  &kp LS(MINUS) 		&key_repeat &kp LS(MINUS) &key_repeat &none &kp ENTER
 		&kp TILDE    &hm RBKT LBKT &hm RBRC LBRC &hm RPRN LPRN  &kp DQT 	&kp GRAVE &hm RGUI RPRN &hm RALT RBRC &kp RBKT  &none 
-					  &lt 2 TAB &kp BKSP 				&kp SPC &lt 1 ENTER
+					  &lt 2 ESC &kp BKSP 				&kp SPC &lt 1 ENTER
 		>;
 		};
 		
