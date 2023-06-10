@@ -213,7 +213,7 @@
 		tri_layer {
 		bindings = <
 		&kp F1  &kp F2    &kp F3    &kp F4    &kp F5 				&kp PAGE_UP &kp HOME  &none &none &none
-		&kp F6 &kp F7 &kp F8 &kp F9 &kp F10  					&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
+		&kp F6 &kp F7 &kp F8 &kp F9 &kp F10  					&kp LEFT &kp DOWN  &kp UP &kp RIGHT &none 
 		&kp F11  &kp F12  &none  &none  &none   				&kp PAGE_DOWN  &kp END  &none  &none &none   
 					 &to 0 &to 0  					&key_repeat &to 0 
 		>;
