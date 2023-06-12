@@ -185,7 +185,7 @@
                 
        		default_layer {
 		bindings = <
-		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp COLON
+		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp SQT
 		&gqt LCTRL I &gqt LSHIFT S &gqt LALT R &gqt LGUI T &lt 3 G 	  	&kp P &gqt RGUI N &gqt RALT E &gqt RSHIFT A &gqt RCTRL O
 		&kp Q &kp V &lt 3 W &lt 3 D &kp J				        &kp B &kp H  &kp SLASH &td EXCL DOT &kp X
           				&lt 2 ESC &kp BKSP			&kp SPC &lt 1 ENTER
@@ -194,7 +194,7 @@
 
        		left_layer {
 		bindings = <
-		&kp GRAVE  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &td COLON SEMI &kp DEL 
+		&kp GRAVE  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &td COLON SEMI &kp COLON 
 		&gqt LCTRL TAB  &gqt LSHIFT EQUAL  &gqt LALT BSLH  &gqt LGUI PIPE  &kp LS(MINUS) 		&kp EXCL &gqt RGUI LS(MINUS) &gqt RALT EXCL &gqt RSHIFT COLON &gqt RCTRL ENTER
 		&kp TILDE    &hm RBKT LBKT &hm RBRC LBRC &hm RPRN LPRN  &kp DQT 	&kp GRAVE &hm RGUI RPRN &hm RALT RBRC &kp RBKT  &none 
 					  &lt 2 ESC &kp BKSP 				&kp SPC &lt 1 ENTER
