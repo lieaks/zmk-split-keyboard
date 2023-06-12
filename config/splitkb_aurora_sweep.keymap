@@ -185,7 +185,7 @@
                 
        		default_layer {
 		bindings = <
-		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp SQT
+		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &td MINUS COMMA &kp COLON
 		&gqt LCTRL I &gqt LSHIFT S &gqt LALT R &gqt LGUI T &lt 3 G 	  	&kp P &gqt RGUI N &gqt RALT E &gqt RSHIFT A &gqt RCTRL O
 		&kp Q &kp V &lt 3 W &lt 3 D &kp J				        &kp B &kp H  &kp SLASH &td EXCL DOT &kp X
           				&lt 2 ESC &kp BKSP			&kp SPC &lt 1 ENTER
@@ -212,7 +212,7 @@
 		
 		tri_layer {
 		bindings = <
-		&kp F1  &kp F2    &kp F3    &kp F4    &kp F5 				&kp PAGE_UP &kp HOME  &none &none &none
+		&kp F1  &kp F2    &kp F3    &kp F4    &kp F5 				&kp PAGE_UP &kp HOME  &none &none &kp DEL
 		&kp F6 &kp F7 &kp F8 &kp F9 &kp F10  					&kp LEFT &kp DOWN  &kp UP &kp RIGHT &none 
 		&kp F11  &kp F12  &none  &none  &none   				&kp PAGE_DOWN  &kp END  &none  &none &none   
 					 &to 0 &to 0  					&key_repeat &key_repeat 
