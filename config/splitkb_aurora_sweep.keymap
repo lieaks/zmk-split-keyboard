@@ -134,7 +134,7 @@
 	combo_tab {
 	timeout-ms = <30>;
 	key-positions = <10 11>;
-	bindings = <&kp TAB>;
+	bindings = <&kp EXCL>;
 	};
 	combo_nav {
 	timeout-ms = <30>;
