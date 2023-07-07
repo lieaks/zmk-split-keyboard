@@ -83,8 +83,18 @@
 	= <&macro_press &kp RALT>
 	, <&macro_tap &kp I>
 	, <&macro_release &kp RALT>
-	, <&macro_tap &kp I
-	>;
+	, <&macro_tap &kp I>;
+	};
+	warpd_hint: warpd_hint {
+	label = "warpd_hint";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings
+	= <&macro_press &kp LGUI>
+	, <&macro_press &kp LALT>
+	, <&macro_tap &kp X>
+	, <&macro_release &kp LGUI>
+	, <&macro_release &kp RALT>;
 	};
      };
      
@@ -133,8 +143,9 @@
 	};
 	combo_tab {
 	timeout-ms = <30>;
-	key-positions = <10 11>;
-	bindings = <&kp EXCL>;
+	key-positions = <12 13>;
+// RT combo
+	bindings = <&warpd_hint>;
 	};
 	combo_nav {
 	timeout-ms = <30>;
@@ -186,7 +197,7 @@
        		default_layer {
 		bindings = <
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &kp COMMA &kp SQT
-		&gqt LCTRL I &gqt LSHIFT S &gqt LALT R &gqt LGUI T &lt 3 G 	  	&kp P &gqt RGUI N &gqt RALT E &gqt RSHIFT A &gqt RCTRL O
+		&gqt LCTRL I &gqt LSHIFT S &gqt LALT R &gqt LGUI T &lt 3 G 	  	&kp P &kp N &kp E &kp A &kp O
 		&kp Q &kp V &lt 3 W &lt 3 D &kp J				        &kp B &kp H  &kp SLASH &td EXCL DOT &kp X
           				&lt 2 ESC &kp BKSP			&kp SPC &lt 1 ENTER
 		>;
