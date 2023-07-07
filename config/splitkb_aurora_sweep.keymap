@@ -90,11 +90,9 @@
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
 	bindings
-	= <&macro_press &kp LGUI>
-	, <&macro_press &kp LALT>
+	= <&macro_press &kp LGUI &kp LALT>
 	, <&macro_tap &kp X>
-	, <&macro_release &kp LGUI>
-	, <&macro_release &kp RALT>;
+	, <&macro_release &kp LGUI &kp LALT>;
 	};
 	warpd_normal: warpd_normal {
 	label = "warpd_normal";
