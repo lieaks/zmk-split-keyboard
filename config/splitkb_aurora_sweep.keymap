@@ -195,7 +195,7 @@
        		left_layer {
 		bindings = <
 		&kp GRAVE  &kp AT    &kp HASH   &kp DLLR    &kp PRCNT			&kp CARET &kp AMPS &kp ASTRK &kp SEMI &none 
-		&gqt LCTRL TAB  &gqt LSHIFT EQUAL  &gqt LALT BSLH  &gqt LGUI PIPE  &kp LS(MINUS) 	&kp EXCL &gqt RGUI LS(MINUS) &gqt RALT EXCL &gqt RSHIFT COLON &gqt RCTRL ENTER
+		&gqt LCTRL TAB  &gqt LSHIFT EQUAL  &gqt LALT BSLH  &gqt LGUI PIPE  &kp LS(MINUS) 	&kp EXCL &gqt RGUI LS(MINUS) &gqt RALT EXCL &gqt RSHIFT COLON &gqt RCTRL SEMI
 		&kp TILDE    &hm RBKT LBKT &hm RBRC LBRC &hm RPRN LPRN  &none 	&none &kp RPRN &hm RALT RBRC &kp RBKT  &none
 					  &lt 2 ESC &kp BKSP 				&kp SPC &lt 1 ENTER
 		>;
