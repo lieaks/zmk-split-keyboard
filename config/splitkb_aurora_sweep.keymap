@@ -96,6 +96,17 @@
 	, <&macro_release &kp LGUI>
 	, <&macro_release &kp RALT>;
 	};
+	warpd_normal: warpd_normal {
+	label = "warpd_normal";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings
+	= <&macro_press &kp LGUI>
+	, <&macro_press &kp LALT>
+	, <&macro_tap &kp C>
+	, <&macro_release &kp LGUI>
+	, <&macro_release &kp RALT>;
+	};
      };
      
 	combos {
@@ -141,16 +152,16 @@
 	key-positions = <2 3>;
 	bindings = <&kp CAPS>;
 	};
-	combo_tab {
+	combo_warpd_hint {
 	timeout-ms = <30>;
 	key-positions = <12 13>;
 // RT combo
 	bindings = <&warpd_hint>;
 	};
-	combo_nav {
+	combo_warpd_normal {
 	timeout-ms = <30>;
-	key-positions = <30 33>;
-	bindings = <&key_repeat>;
+	key-positions = <11 12 13>;
+	bindings = <&warpd_normal>;
 	};
 	combo_enter {
 	timeout-ms = <30>;
