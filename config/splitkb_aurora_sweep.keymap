@@ -143,7 +143,7 @@
 	combo_capslock {
 	timeout-ms = <30>;
 	key-positions = <2 3>;
-	bindings = <&kp CAPS>;
+	bindings = <&sk LSHIFT>;
 	};
 	combo_warpd_hint {
 	timeout-ms = <30>;
