@@ -202,7 +202,7 @@
 		bindings = <
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F &kp U &kp COMMA &kp SQT
 		&gqt LCTRL I &gqt LSHIFT S &gqt LALT R &gqt LGUI T &lt 3 G 	  	&kp P &kp N &kp E &kp A &kp O
-		&kp Q &kp V &lt 3 W &lt 3 D &kp J				        &kp B &gqt RGUI H  &gqt RALT SLASH &gqt RALT DOT &gqt RCTRL X
+		&kp Q &kp V &lt 3 W &lt 3 D &kp J				        &kp B &gqt RGUI H  &gqt RALT SLASH &gqt RSHIFT DOT &gqt RCTRL X
           				&lt 2 ESC &kp BKSP			&kp SPC &lt 1 ENTER
 		>;
 		};
