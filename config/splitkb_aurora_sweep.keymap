@@ -209,7 +209,7 @@
 
        		left_layer {
 		bindings = <
-		&kp GRAVE  &kp LT    &kp GT   &kp EXCL   &none						&kp AMPS &kp SEMI &kp LBKT &kp RBKT &kp PERCENT 
+		&kp GRAVE  &kp LT    &kp GT   &kp EXCL   &kp UNDER						&kp AMPS &kp SEMI &kp LBKT &kp RBKT &kp PERCENT 
 		&gqt LCTRL TAB  &gqt LSHIFT MINUS  &gqt LALT LS(EQUAL) &gqt LGUI EQUAL &kp HASH 	&kp PIPE  &kp COLON  &kp LPAR &kp RPAR &kp QMARK
 		&kp CARET    &kp SLASH &kp ASTRK &kp BSLH  &none				 	&kp TILDE &gqt RGUI DOLLAR &gqt RALT LBRC &gqt RSHIFT RBRC  &gqt RCTRL AT
 					  &lt 2 ESC &kp BKSP 				&kp SPC &lt 1 ENTER
