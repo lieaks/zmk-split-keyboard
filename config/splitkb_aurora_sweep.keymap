@@ -161,6 +161,11 @@
 	key-positions = <18 19>;
 	bindings = <&key_repeat>;
 	};
+	combo_tab {
+	timeout-ms = <30>;
+	key-positions = <10 11>;
+	bindings = <&kp TAB>;
+	};
     };
 
 	behaviors {
