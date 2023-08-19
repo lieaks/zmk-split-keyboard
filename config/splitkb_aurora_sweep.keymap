@@ -159,7 +159,7 @@
 	combo_enter {
 	timeout-ms = <30>;
 	key-positions = <18 19>;
-	bindings = <&key_repeat>;
+	bindings = <&kp ENTER>;
 	};
 	semi {
 	timeout-ms = <30>;
