@@ -148,7 +148,6 @@
 	combo_warpd_hint {
 	timeout-ms = <30>;
 	key-positions = <12 13>;
-// RT combo
 	bindings = <&warpd_hint>;
 	};
 	combo_warpd_normal {
