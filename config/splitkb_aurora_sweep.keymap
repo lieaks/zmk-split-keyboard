@@ -165,10 +165,16 @@
 	key-positions = <6 16>;
 	bindings = <&kp SEMI>;
 	};
+	lpar {
+	timeout-ms = <30>;
+	key-positions = <7 17>;
+	bindings = <&kp LPAR>;
+	};
+	RPAR
 	combo_tab {
 	timeout-ms = <30>;
-	key-positions = <10 11>;
-	bindings = <&kp TAB>;
+	key-positions = <8 18>;
+	bindings = <&kp RPAR>;
 	};
     };
 
