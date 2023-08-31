@@ -180,10 +180,15 @@
 	key-positions = <10 11>;
 	bindings = <&kp TAB>;
 	};
-	combo_escape {
+	combo_escape_tn {
 	timeout-ms = <30>;
 	key-positions = <13 16>;
 	bindings = <&kp ESC>;
+	};
+	combo_enter_re {
+	timeout-ms = <30>;
+	key-positions = <12 17>;
+	bindings = <&kp ENTER>;
 	};
     };
 
