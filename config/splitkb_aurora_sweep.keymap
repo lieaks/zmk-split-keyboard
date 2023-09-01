@@ -70,10 +70,7 @@
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
 	bindings
-	= <&macro_press &kp RALT>
-	, <&macro_tap &kp I>
-	, <&macro_release &kp RALT>
-	, <&macro_tap &kp O>;
+	= <&macro_tap &kp LA(I) &kp O>;
 	};
 	i_circ: i_circ {
 	label = "i_circ";
@@ -229,8 +226,8 @@
                 
        		default_layer {
 		bindings = <
-		&kp Y &td LG(C) C &kp L &kp M &kp K 						&kp Z &kp F &kp U &kp COMMA &kp SQT
-		&gqt LCTRL I &gqt LALT S &gqt LGUI R &gqt LSHIFT T &lt 3 G 	  	&kp P &gqt RSHIFT N &gqt RGUI E &gqt RALT A &gqt RCTRL O
+		&lg LG(C) Y &td LG(C) C &kp L &kp M &kp K 				&kp Z &kp F &kp U &kp COMMA &kp SQT
+		&gqt LCTRL I &gqt LALT S &gqt LGUI R &gqt LSHIFT T &lt 3 G 	  	&td LG(V) P &gqt RSHIFT N &gqt RGUI E &gqt RALT A &gqt RCTRL O
 		&kp Q &td LG(V) V &lt 3 W &lt 3 D &kp J				        &kp B &kp H  &kp SLASH &kp DOT &kp X
           				&lt 1 ESC &kp BKSP			&kp SPC &lt 2 ENTER
 		>;
@@ -238,7 +235,7 @@
 
        		left_layer {
 		bindings = <
-		&kp GRAVE  &kp LT    &kp GT   &kp EXCL   &kp UNDER						 &kp AMPS &kp SEMI &kp LBKT &kp RBKT &kp PERCENT 
+		&kp GRAVE  &kp LT    &kp GT   &kp EXCL   &kp UNDER					&kp AMPS &kp SEMI &kp LBKT &kp RBKT &kp PERCENT 
 		&gqt LCTRL TAB  &gqt LALT MINUS  &gqt LGUI LS(EQUAL) &gqt LSHIFT EQUAL &kp HASH 	&kp PIPE  &kp COLON  &kp LPAR &kp RPAR &kp QMARK
 		&kp CARET    &kp SLASH &kp ASTRK &kp BSLH  &none				 	&kp TILDE &gqt RSHIFT DOLLAR &gqt RGUI LBRC &gqt RALT RBRC  &gqt RCTRL AT
 					  &lt 1 ESC &kp BKSP 				&kp SPC &lt 2 ENTER
