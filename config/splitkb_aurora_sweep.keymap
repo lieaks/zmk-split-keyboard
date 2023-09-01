@@ -70,7 +70,7 @@
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
 	bindings
-	= <&macro_tap &kp LA(I) &kp O>;
+	= <&macro_tap &kp RA(I) &kp O>;
 	};
 	i_circ: i_circ {
 	label = "i_circ";
