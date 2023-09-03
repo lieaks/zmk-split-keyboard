@@ -237,7 +237,7 @@
         //│  I       │  S       │  R       │  T       │  G       │   │  P       │  N       │  E       │  A       │  O       │
 	&gqt LCTRL I &gqt LALT S &gqt LGUI R &gqt LSHIFT T &lt 3 G 	  	&td LG(V) P &gqt RSHIFT N &gqt RGUI E &gqt RALT A &gqt RCTRL O
 		&kp Q &td LG(V) V &lt 3 W &lt 3 D &kp J				        &kp B &kp H  &kp SLASH &kp DOT &kp X
-          				&lt 1 ESC &kp BKSP			&kp SPC &lt 2 ENTER
+          				&mo 1 &kp BKSP			&kp SPC &lt 2 ENTER
 		>;
 		};
 
