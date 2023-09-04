@@ -23,7 +23,7 @@
 	label = "e_aigu";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings = <&macro_press &kp RA(E) &kp E>; 
+	bindings = <&macro_tap &kp RA(E) &kp E>; 
 };
 	e_grave: e_grave {
 	label = "e_grave";
