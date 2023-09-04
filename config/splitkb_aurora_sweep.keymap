@@ -23,12 +23,8 @@
 	label = "e_aigu";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings
-	= <&macro_press &kp RALT>
-	, <&macro_tap &kp E>
-	, <&macro_release &kp RALT>
-	, <&macro_tap &kp E>;
-	};		
+	bindings = <&macro_press &kp RA(E) &kp E>; 
+};
 	e_grave: e_grave {
 	label = "e_grave";
 	compatible = "zmk,behavior-macro";
@@ -233,11 +229,15 @@
  	//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
 	//│  Y       │  C       │  L       │  M       │  K       │   │  Z       │  F       │  U       │  , <     │  ' "     │
 	   &td LG(C) Y &td LG(C) C &kp L     &kp M      &kp K 	      &kp Z      &kp F      &kp U      &kp COMMA  &kp SQT
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  I       │  S       │  R       │  T       │  G       │   │  P       │  N       │  E       │  A       │  O       │
-	&gqt LCTRL I &gqt LALT S &gqt LGUI R &gqt LSHIFT T &lt 3 G 	  	&td LG(V) P &gqt RSHIFT N &gqt RGUI E &gqt RALT A &gqt RCTRL O
-		&kp Q &td LG(V) V &lt 3 W &lt 3 D &kp J				        &kp B &kp H  &kp SLASH &kp DOT &kp X
-          				&mo 1 &kp BKSP			&kp SPC &lt 2 ENTER
+  //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+  //│  I       │  S       │  R       │  T       │  G       │   │  P       │  N       │  E       │  A       │  O       │
+	   &gqt LCTRL I &gqt LALT S &gqt LGUI R &gqt LSHIFT T &lt 3 G 	  	&td LG(V) P &gqt RSHIFT N &gqt RGUI E &gqt RALT A &gqt RCTRL O
+  //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+  //│  Q       │  V       │  W       │  D       │  J       │   │  B       │  H       │  /       │  .       │  X       │
+	   &kp Q     &td LG(V) V &lt 3 W    &lt 3 D    &kp J				  &kp B       &kp H      &kp SLASH  &kp DOT    &kp X
+  //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+          			                  	  &mo 1      &kp BKSP       &kp SPC    &lt 2 ENTER
+  //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 		>;
 		};
 
