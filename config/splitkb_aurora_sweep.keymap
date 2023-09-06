@@ -229,7 +229,7 @@
 		&kp CARET    &kp SLASH &kp ASTRK &kp BSLH  &none				 	&kp TILDE &gqt RSHIFT DOLLAR &gqt RGUI LBRC &gqt RALT RBRC  &gqt RCTRL AT
 					  &lt 1 ESC &kp BKSP 				&kp SPC &lt 2 ENTER
 		>;
-é		};
+		};
 		
 		right_layer {
 		bindings = <
