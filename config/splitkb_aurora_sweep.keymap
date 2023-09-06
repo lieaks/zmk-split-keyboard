@@ -214,7 +214,7 @@
   //│  Q       │  V       │  W       │  D       │  J       │   │  B       │  H       │  /       │  .       │  X       │
 	   &kp Q     &td LG(V) V &lt 3 W    &lt 3 D    &kp J				  &kp B       &kp H      &kp SLASH  &kp DOT    &kp X
   //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                      &mo SYM     &kp BKSP       &kp SPC    &lt NUM ENTER
+                                      &sl SYM     &kp BKSP       &kp SPC    &lt NUM ENTER
   //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 		>;
 		};
