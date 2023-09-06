@@ -24,7 +24,7 @@
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp RA(E) &kp E>; 
-};
+	};
 	e_grave: e_grave {
 	label = "e_grave";
 	compatible = "zmk,behavior-macro";
@@ -41,41 +41,44 @@
 	label = "a_grave";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings
-	= <&macro_tap &kp RA(GRAVE) &kp A>;
+	bindings = <&macro_tap &kp RA(GRAVE) &kp A>;
 	};
 	u_grave: u_grave {
 	label = "u_grave";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings
-	= <&macro_tap &kp RA(GRAVE) &kp U>;
+	bindings = <&macro_tap &kp RA(GRAVE) &kp U>;
 	};
 	o_circ: o_circ {
 	label = "o_circ";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings
-	= <&macro_tap &kp RA(I) &kp O>;
+	bindings = <&macro_tap &kp RA(I) &kp O>;
 	};
 	i_circ: i_circ {
 	label = "i_circ";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings
-	= <&macro_tap &kp RA(I) &kp I>;
+	bindings = <&macro_tap &kp RA(I) &kp I>;
 	};
 	warpd_hint: warpd_hint {
 	label = "warpd_hint";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings
-	= <&macro_tap &kp LG(LA(X))>;
+	bindings = <&macro_tap &kp LG(LA(X))>;
 	};
-	ZMK_MACRO(warpd_normal,
-	bindings
-	= <&macro_press &kp LGUI &kp LALT>;
-	)
+	warpd_normal: warp_normal {
+	label = "warpd_normal";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings = <&kp LG(LA(C))>;
+	};
+	sym2macro: behavior_macro_1 {
+	label = "macro1";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings = <&sl SYM>;
+	};
      };
      
 	combos {
