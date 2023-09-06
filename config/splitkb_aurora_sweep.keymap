@@ -71,7 +71,7 @@
 	label = "warpd_normal";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings = <&kp LG(LA(C))>;
+	bindings = <&macro_tap &kp LG(LA(C))>;
 	};
 	sym2macro: behavior_macro_1 {
 	label = "macro1";
