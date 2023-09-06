@@ -217,7 +217,7 @@
   //│  Q       │  V       │  W       │  D       │  J       │   │  B       │  H       │  /       │  .       │  X       │
 	   &kp Q     &td LG(V) V &lt 3 W    &lt 3 D    &kp J				  &kp B       &kp H      &kp SLASH  &kp DOT    &kp X
   //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                      &sl SYM     &kp BKSP       &kp SPC    &lt NUM ENTER
+                                      &lt SYM ESC     &kp BKSP       &kp SPC    &lt NUM ENTER
   //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 		>;
 		};
@@ -229,7 +229,7 @@
 		&kp CARET    &kp SLASH &kp ASTRK &kp BSLH  &none				 	&kp TILDE &gqt RSHIFT DOLLAR &gqt RGUI LBRC &gqt RALT RBRC  &gqt RCTRL AT
 					  &lt 1 ESC &kp BKSP 				&kp SPC &lt 2 ENTER
 		>;
-		};
+é		};
 		
 		right_layer {
 		bindings = <
