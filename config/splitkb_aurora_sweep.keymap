@@ -29,41 +29,27 @@
 	label = "e_grave";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings
-	= <&macro_press &kp RALT>
-	, <&macro_tap &kp GRAVE>
-	, <&macro_release &kp RALT>
-	, <&macro_tap &kp E>;
+	bindings = <&macro_tap &kp RA(GRAVE) &kp E>;
 	};
 	e_circ: e_circ {
 	label = "e_circ";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings
-	= <&macro_press &kp RALT>
-	, <&macro_tap &kp I>
-	, <&macro_release &kp RALT>
-	, <&macro_tap &kp E>;
+	bindings = <&macro_tap &kp RA(I) &kp E>;
 	};
 	a_grave: a_grave {
 	label = "a_grave";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
 	bindings
-	= <&macro_press &kp RALT>
-	, <&macro_tap &kp GRAVE>
-	, <&macro_release &kp RALT>
-	, <&macro_tap &kp A>;
+	= <&macro_tap &kp RA(GRAVE) &kp A>;
 	};
 	u_grave: u_grave {
 	label = "u_grave";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
 	bindings
-	= <&macro_press &kp RALT>
-	, <&macro_tap &kp GRAVE>
-	, <&macro_release &kp RALT>
-	, <&macro_tap &kp U>;
+	= <&macro_tap &kp RA(GRAVE) &kp U>;
 	};
 	o_circ: o_circ {
 	label = "o_circ";
@@ -77,10 +63,7 @@
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
 	bindings
-	= <&macro_press &kp RALT>
-	, <&macro_tap &kp I>
-	, <&macro_release &kp RALT>
-	, <&macro_tap &kp I>;
+	= <&macro_tap &kp RA(I) &kp I>;
 	};
 	warpd_hint: warpd_hint {
 	label = "warpd_hint";
@@ -106,7 +89,6 @@
 	key-positions = <17 18>;
 	bindings = <&e_aigu>;
 	};
-	
 	combo_e_grave {
 	timeout-ms = <30>;
 	key-positions = <16 17>;
