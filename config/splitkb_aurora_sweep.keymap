@@ -118,7 +118,7 @@
 	combo_capslock {
 	timeout-ms = <30>;
 	key-positions = <2 3>;
-	bindings = <&kp CAPS>;
+	bindings = <&caps_word>;
 	};
 	combo_warpd_hint {
 	timeout-ms = <30>;
@@ -206,7 +206,7 @@
 	bindings = <
  	//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
 	//│  Y       │  C       │  L       │  M       │  K       │   │  Z       │  F       │  U       │  , <     │  ' "     │
-	   &td LG(C) Y &td LG(C) C &kp L     &kp M      &kp K 	      &kp Z      &kp F      &kp U      &kp COMMA  &kp SQT
+	   &td LG(C) Y &td LG(C) C &kp L     &kp M      &kp K 	      &td LG(Z) Z      &kp F      &td LG(Z) U      &kp COMMA  &kp SQT
   //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
   //│  I       │  S       │  R       │  T       │  G       │   │  P       │  N       │  E       │  A       │  O       │
 	   &gqt LCTRL I &gqt LALT S &gqt LGUI R &gqt LSHIFT T &lt 3 G 	  	&td LG(V) P &gqt RSHIFT N &gqt RGUI E &gqt RALT A &gqt RCTRL O
