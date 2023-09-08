@@ -227,7 +227,7 @@
 		&kp GRAVE  &kp LT    &kp GT   &kp EXCL   &kp UNDER					&kp AMPS &kp SEMI &kp LBKT &kp RBKT &kp PERCENT 
 		&gqt LCTRL TAB  &gqt LALT MINUS  &gqt LGUI LS(EQUAL) &gqt LSHIFT EQUAL &kp HASH 	&kp PIPE  &kp COLON  &kp LPAR &kp RPAR &kp QMARK
 		&kp CARET    &kp SLASH &kp ASTRK &kp BSLH  &none				 	&kp TILDE &gqt RSHIFT DOLLAR &gqt RGUI LBRC &gqt RALT RBRC  &gqt RCTRL AT
-					  &lt 1 ESC &kp BKSP 				&kp SPC &lt 2 ENTER
+					  &lt SYM ESC &kp BKSP 				&kp SPC &lt 2 ENTER
 		>;
 		};
 		
