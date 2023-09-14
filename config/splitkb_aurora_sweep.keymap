@@ -178,7 +178,7 @@
 	key-positions = <13 23>;
 	bindings = <&kp LG(V)>;
 	};
-	combo_cut {00
+	combo_cut {
 	timeout-ms = <30>;
 	key-positions = <11 21>;
 	bindings = <&kp LG(X)>;
