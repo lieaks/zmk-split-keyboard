@@ -178,16 +178,16 @@
 	key-positions = <13 23>;
 	bindings = <&kp LG(V)>;
 	};
-	combo_cut {
+	combo_cut {00
 	timeout-ms = <30>;
 	key-positions = <11 21>;
 	bindings = <&kp LG(X)>;
 	};
 
-// 0  1  2  3  4	5  6  7  8  9
-// 10 11 12 13 14	15 16 17 18 19
-// 20 21 22 23 24	25 26 27 28 29
-//          30 31	32 33
+// 0  1  2  3  4        5  6  7  8  9
+// 10 11 12 13 14       15 16 17 18 19
+// 20 21 22 23 24       25 26 27 28 29
+//          30 31       32 33
     };
 
 	behaviors {
@@ -232,12 +232,12 @@
 	   &td LG(C) Y &td LG(C) C &kp L     &kp M      &kp K 	      &td LG(Z) Z      &kp F      &td LG(Z) U      &kp COMMA  &kp SQT
   //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
   //│  I       │  S       │  R       │  T       │  G       │   │  P       │  N       │  E       │  A       │  O       │
-	   &gqt LCTRL I &gqt LALT S &gqt LGUI R &gqt LSHIFT T &lt 3 G 	  	&td LG(V) P &gqt RSHIFT N &gqt RGUI E &gqt RALT A &gqt RCTRL O
+	   &gqt LCTRL I &gqt LALT S &gqt LGUI R &gqt LSHIFT T &lt 3 G 	   &td LG(V) P &gqt RSHIFT N &gqt RGUI E &gqt RALT A &gqt RCTRL O
   //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
   //│  Q       │  V       │  W       │  D       │  J       │   │  B       │  H       │  /       │  .       │  X       │
 	   &kp Q     &td LG(V) V &lt 3 W    &lt 3 D    &kp J				  &kp B       &kp H      &kp SLASH  &kp DOT    &kp X
   //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                      &lt SYM ESC     &kp BKSP       &kp SPC    &lt NUM ENTER
+                                      &lt SYM ESC &kp BKSP      &kp SPC    &lt NUM ENTER
   //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 		>;
 		};
