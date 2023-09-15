@@ -165,7 +165,7 @@
 
         combo_enter {
             timeout-ms = <30>;
-            key-positions = <18 20>;
+            key-positions = <2 4>;
             bindings = <&kp ENTER>;
         };
 
@@ -189,7 +189,7 @@
 
         combo_tab {
             timeout-ms = <30>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
             bindings = <&kp TAB>;
         };
 
@@ -201,25 +201,25 @@
 
         combo_esc_re {
             timeout-ms = <30>;
-            key-positions = <12 17>;
+            key-positions = <1 2>;
             bindings = <&kp ESC>;
         };
 
         combo_copy {
             timeout-ms = <30>;
-            key-positions = <12 22>;
+            key-positions = <22 21>;
             bindings = <&kp LG(C)>;
         };
 
         combo_paste {
             timeout-ms = <30>;
-            key-positions = <13 23>;
+            key-positions = <23 22>;
             bindings = <&kp LG(V)>;
         };
 
         combo_cut {
             timeout-ms = <30>;
-            key-positions = <11 21>;
+            key-positions = <21 23>;
             bindings = <&kp LG(X)>;
         };
 
@@ -337,10 +337,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &mwh SCROLL_DOWN  &mmv MOVE_UP  &mwh SCROLL_UP  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &tog 6  &trans  &trans  &trans
-&tog 6  &tog 6                                                    &mkp LCLK  &mkp RCLK
+&trans  &trans  &trans  &trans  &trans    &trans  &mwh SCROLL_DOWN  &mmv MOVE_UP    &mwh SCROLL_UP   &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &tog 6            &trans          &trans           &trans
+&tog 6  &tog 6                                                                      &mkp LCLK        &mkp RCLK
             >;
         };
     };
