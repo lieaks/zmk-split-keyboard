@@ -165,7 +165,7 @@
 
         combo_enter {
             timeout-ms = <30>;
-            key-positions = <2 4>;
+            key-positions = <2 13>;
             bindings = <&kp ENTER>;
         };
 
@@ -195,7 +195,7 @@
 
         combo_enter_tn {
             timeout-ms = <30>;
-            key-positions = <13 16>;
+            key-positions = <20 0 10>;
             bindings = <&kp ENTER>;
         };
 
@@ -319,10 +319,10 @@
 
         sym+num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans                                                    &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &kp LA(LS(P))  &kp LA(LS(N))  &kp LA(LS(E))  &kp LA(LS(A))  &trans
+&trans  &trans  &trans  &trans  &trans    &kp LC(LA(P))  &kp LC(LA(N))  &kp LC(LA(E))  &kp LC(LA(A))  &trans
+&trans  &trans  &trans  &trans  &trans    &trans         &kp LA(N)      &trans         &trans         &trans
+&trans  &trans                                                                         &trans         &trans
             >;
         };
 
@@ -337,10 +337,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &mwh SCROLL_UP  &mwh SCROLL_UP  &mkp MB2  &trans   &trans
-&trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans    &mwh SCROLL_DOWN  &mwh SCROLL_DOWN   &tog 6   &trans     &trans
-&tog 6  &tog 6                                                                      &mkp LCLK        &mkp RCLK
+&trans  &trans  &trans  &trans  &trans    &mwh SCROLL_UP    &mwh SCROLL_UP    &mkp MB2      &trans           &trans
+&trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans    &mwh SCROLL_DOWN  &mwh SCROLL_DOWN  &tog 6        &trans           &trans
+&tog 6  &tog 6                                                                              &mkp LCLK        &mkp RCLK
             >;
         };
     };
