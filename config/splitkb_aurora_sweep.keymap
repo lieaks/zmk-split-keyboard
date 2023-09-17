@@ -147,7 +147,7 @@
 
         combo_capslock {
             timeout-ms = <30>;
-            key-positions = <2 3>;
+            key-positions = <2 1 3>;
             bindings = <&caps_word>;
         };
 
@@ -165,7 +165,7 @@
 
         combo_enter {
             timeout-ms = <30>;
-            key-positions = <2 13>;
+            key-positions = <2 3>;
             bindings = <&kp ENTER>;
         };
 
@@ -337,10 +337,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &mwh SCROLL_DOWN    &mwh SCROLL_DOWN    &mkp MB2      &trans           &trans
-&trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP  &mmv MOVE_RIGHT  U_BTN3
-&trans  &trans  &trans  &trans  &trans    &mwh SCROLL_UP  &mwh SCROLL_UP  &tog 6        &trans           &trans
-&tog 6  &tog 6                                                                              U_BTN1        U_BTN2
+&trans                &trans  &trans  &trans  &trans            &mwh SCROLL_DOWN  &mwh SCROLL_DOWN  &mkp MB2      &trans                  &trans
+&trans                &trans  &trans  &trans  &trans            &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP  &mmv MOVE_RIGHT U_BTN3  &trans
+&trans                &trans  &trans  &trans  &mwh SCROLL_UP    &mwh SCROLL_UP    &tog 6            &trans        &trans                  &tog 6
+&tog 6 U_BTN1 U_BTN2
             >;
         };
     };
