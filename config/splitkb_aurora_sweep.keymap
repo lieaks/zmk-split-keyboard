@@ -310,9 +310,9 @@
 
         Arrow {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp PAGE_UP    &kp HOME  &kp UP      &kp PSCRN     &kp DEL
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT       &kp DOWN  &kp UP      &kp RIGHT     &none
-&kp F11  &kp F12  &none   &none   &none      &kp PAGE_DOWN  &kp END   &bt BT_CLR  &bt BT_SEL 1  &bt BT_SEL 2
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp HOME    &kp PAGE_UP  &kp PAGE_UP      &kp PSCRN     &kp DEL
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT       &kp DOWN  &kp UP      &kp RIGHT     &bt BT_CLR
+&kp F11  &kp F12  &none   &none   &none      &kp END  &kp PAGE_DOWN   &kp PAGE_DOWN  &bt BT_SEL 1  &bt BT_SEL 2
 &to 0    &to 0                                                                    &key_repeat   &key_repeat
             >;
         };
