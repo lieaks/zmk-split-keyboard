@@ -8,8 +8,8 @@
 
 &mwh {
   acceleration-exponent = <1>;      // 0
-  time-to-max-speed-ms = <10>;    // 40
-  delay-ms = <0>;                   // 10
+  time-to-max-speed-ms = <0>;    // 40
+  delay-ms = <0>;                // 10
 };
 
 #define U_MOUSE_MOVE_MAX 1000       // 600
