@@ -153,7 +153,7 @@
 
         combo_warpd_hint {
             timeout-ms = <30>;
-            key-positions = <12 13>;
+            key-positions = <>;
             bindings = <&warpd_hint>;
         };
 
@@ -193,10 +193,10 @@
             bindings = <&kp TAB>;
         };
 
-        combo_enter_tn {
+        combo_repeat {
             timeout-ms = <30>;
-            key-positions = <20 0 10>;
-            bindings = <&kp ENTER>;
+            key-positions = <12 13>;
+            bindings = <&key_repeat>;
         };
 
         combo_esc_re {
@@ -290,10 +290,10 @@
 
         SYM {
             bindings = <
-&kp GRAVE  &kp LT           &kp GT               &kp EXCL           &none    &kp AMPS   &kp SEMI    &kp LBKT  &kp RBKT   &kp PERCENT
-&kp UNDER  &gqt LALT MINUS  &gqt LGUI LS(EQUAL)  &gqt LSHIFT EQUAL  &kp HASH     &kp PIPE   &kp COLON   &kp LPAR  &kp RPAR   &kp QMARK
-&kp CARET  &kp SLASH        &kp ASTRK            &kp BSLH           &none        &kp TILDE  &kp DOLLAR  &kp LBRC  &kp RBRC   &kp AT
-&lt 1 ESC  &kp BACKSPACE                                                                                          &kp SPACE  &lt 2 ENTER
+&kp GRAVE  &kp LT           &kp GT               &kp EXCL           &none       &kp AMPS   &kp SEMI    &kp LBKT  &kp RBKT   &kp PERCENT
+&kp UNDER  &gqt LALT MINUS  &gqt LGUI LS(EQUAL)  &gqt LSHIFT EQUAL  &kp HASH    &kp PIPE   &kp COLON   &kp LPAR  &kp RPAR   &kp QMARK
+&kp CARET  &kp SLASH        &kp ASTRK            &kp BSLH           &none       &kp TILDE  &kp DOLLAR  &kp LBRC  &kp RBRC   &kp AT
+&lt 1 ESC  &kp BACKSPACE                                                                                         &kp SPACE  &lt 2 ENTER
             >;
         };
 
@@ -310,10 +310,10 @@
 
         Arrow {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp HOME    &kp PAGE_UP  &kp PAGE_UP      &kp PSCRN     &kp DEL
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT       &kp DOWN  &kp UP      &kp RIGHT     &bt BT_CLR
-&kp F11  &kp F12  &none   &none   &none      &kp END  &kp PAGE_DOWN   &kp PAGE_DOWN  &bt BT_SEL 1  &bt BT_SEL 2
-&to 0    &to 0                                                                    &key_repeat   &key_repeat
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp HOME  &kp PAGE_UP    &kp PAGE_UP    &kp PSCRN     &kp DEL
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT     &bt BT_CLR
+&kp F11  &kp F12  &none   &none   &none      &kp END   &kp PAGE_DOWN  &kp PAGE_DOWN  &bt BT_SEL 1  &bt BT_SEL 2
+&to 0    &to 0                                                                       &key_repeat   &key_repeat
             >;
         };
 
@@ -337,10 +337,9 @@
 
         mouse {
             bindings = <
-&trans                &tog 6  &mmv MOVE_UP  &trans  &trans            &mwh SCROLL_DOWN  &mwh SCROLL_DOWN  &mkp MB2      &trans                  &trans
-&trans                &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans            &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP  &mmv MOVE_RIGHT U_BTN3  &trans
-&trans                &trans  &trans  &trans  &mwh SCROLL_UP    &mwh SCROLL_UP    &tog 6            &trans        &trans                  &tog 6
-U_BTN1 U_BTN1 U_BTN2
+&trans  &tog 6          &mmv MOVE_UP    &trans           &trans            &mwh SCROLL_DOWN  &mwh SCROLL_DOWN  &mkp MB2      &trans                  &trans
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans            &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP  &mmv MOVE_RIGHT U_BTN3  &trans
+&trans  &trans          &trans          &trans           &mwh SCROLL_UP    &mwh SCROLL_UP    &tog 6            &trans        &trans                  &tog 6 U_BTN1 U_BTN1 U_BTN2
             >;
         };
     };
