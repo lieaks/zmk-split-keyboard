@@ -239,6 +239,7 @@
         french_sym {
             bindings = <&sl 5>;
             key-positions = <6 8>;
+            layers = <0>;
         };
 
         mouse {
@@ -351,10 +352,10 @@
 
         mouse {
             bindings = <
-&none    &mwh SCROLL_UP  &mmv MOVE_UP    &mwh SCROLL_DOWN  &none    &none          &none          &none        &none           &none
-&none    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&none    &none          &none         &none            &none    &none  &none  &none      &none         &trans
-&mkp MB2  &mkp MB1                                                                                                  &mkp MB1         &mkp MB2
+&none     &mwh SCROLL_UP  &mmv MOVE_UP    &mwh SCROLL_DOWN  &none    &none           &none           &none         &none            &none
+&none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
+&none     &none           &none           &none             &none    &none           &none           &none         &none            &trans
+&mkp MB2  &mkp MB1                                                                                                 &mkp MB1         &mkp MB2
             >;
         };
     };
