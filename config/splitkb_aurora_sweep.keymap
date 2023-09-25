@@ -327,7 +327,7 @@
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp PSCRN     &kp DEL
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT     &bt BT_CLR
-&kp F11  &kp F12  &none   &none   &none      &kp END   &trans         &trans       &bt BT_SEL 1  &bt BT_SEL 2
+&kp F11  &kp F12  &none   &none   &none      &kp END   &none          &none        &bt BT_SEL 1  &bt BT_SEL 2
 &to 0    &to 0                                                                     &key_repeat   &key_repeat
             >;
         };
@@ -353,8 +353,8 @@
         mouse {
             bindings = <
 &none     &mwh SCROLL_UP  &mmv MOVE_UP    &mwh SCROLL_DOWN  &none    &none           &none           &none         &none            &none
-&none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&none     &none           &none           &none             &none    &none           &none           &none         &none            &trans
+&none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none    &none           &none           &none         &none            &none
+&none     &none           &none           &none             &none    &none           &none           &none         &none            &none
 &mkp MB2  &mkp MB1                                                                                                 &mkp MB1         &mkp MB2
             >;
         };
