@@ -354,7 +354,7 @@
             bindings = <
 &none     &mwh SCROLL_UP  &mmv MOVE_UP    &mwh SCROLL_DOWN  &none    &none           &mwh SCROLL_DOWN  &mmv MOVE_UP    &mwh SCROLL_UP            &none
 &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none    &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT            &none
-&none     &none           &none           &none             &none    &none           &none           &none         &none            &none
+&none     &none           &none           &mwh SCROLL_UP    &none    &none           &mwh SCROLL_UP           &none         &none            &none
 &mkp MB2  &mkp MB1                                                                                                 &mkp MB1         &mkp MB2
             >;
         };
