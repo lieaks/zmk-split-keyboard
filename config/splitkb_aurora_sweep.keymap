@@ -298,7 +298,7 @@
             bindings = <
 &kp Y         &kp C          &kp L        &kp M          &kp K      &td LG(Z) Z  &kp F          &kp U        &kp COMMA    &kp SQT
 &gqt LCTRL I  &gqt LALT S    &gqt LGUI R  &gqt LSHIFT T  &lt 3 G    &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A  &gqt RCTRL O
-&kp Q         &kp V          &kp W        &lt 3 D        &kp J      &kp B        &lt 6 H        &kp SLASH    &kp DOT      &kp X
+&kp Q         &kp V          &lt 6 W        &lt 3 D        &kp J      &kp B        &lt 6 H        &kp SLASH    &kp DOT      &kp X
 &lt 1 ESC     &kp BACKSPACE                                                                                  &kp SPACE    &lt 2 ENTER
             >;
         };
@@ -352,8 +352,8 @@
 
         mouse {
             bindings = <
-&none     &mwh SCROLL_UP  &mmv MOVE_UP    &mwh SCROLL_DOWN  &none    &none           &none           &none         &none            &none
-&none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none    &none           &none           &none         &none            &none
+&none     &mwh SCROLL_UP  &mmv MOVE_UP    &mwh SCROLL_DOWN  &none    &none           &mwh SCROLL_DOWN  &mmv MOVE_UP    &mwh SCROLL_UP            &none
+&none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none    &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT            &none
 &none     &none           &none           &none             &none    &none           &none           &none         &none            &none
 &mkp MB2  &mkp MB1                                                                                                 &mkp MB1         &mkp MB2
             >;
