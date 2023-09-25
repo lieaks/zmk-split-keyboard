@@ -299,10 +299,10 @@
 
         NUM {
             bindings = <
-&none           &kp N7        &kp N8        &kp N9          &none    &kp C_PP  &kp C_VOL_DN          &kp C_VOL_UP        &kp C_PREV      &kp C_NEXT
-&gqt LCTRL TAB  &gqt LALT N4  &gqt LGUI N5  &gqt LSHIFT N6  &none    &none     &gqt RSHIFT C_BRI_DN  &gqt RGUI C_BRI_UP  &kp RALT        &kp RCTRL
-&none           &kp N1        &kp N2        &kp N3          &none    &none     &mkp LCLK             &mmv MOVE_UP        &mwh SCROLL_UP  &none
-&kp N0          &kp BKSP                                                                                                 &kp SPC         &lt 2 ENTER
+&none                &kp N7         &kp N8        &kp N9          &none    &kp C_PP  &kp C_VOL_DN          &kp C_VOL_UP        &kp C_PREV      &kp C_NEXT
+&gqt LCTRL NUMBER_0  &gqt LALT N4   &gqt LGUI N5  &gqt LSHIFT N6  &none    &none     &gqt RSHIFT C_BRI_DN  &gqt RGUI C_BRI_UP  &kp RALT        &kp RCTRL
+&none                &kp N1         &kp N2        &kp N3          &none    &none     &mkp LCLK             &mmv MOVE_UP        &mwh SCROLL_UP  &none
+&lt 1 ESCAPE         &kp BACKSPACE                                                                                             &kp SPACE       &lt 2 ENTER
             >;
 
             label = "right";
@@ -310,7 +310,7 @@
 
         Arrow {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp HOME  &kp PAGE_DOWN    &kp PAGE_UP    &kp PSCRN     &kp DEL
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP    &kp PSCRN     &kp DEL
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT     &bt BT_CLR
 &kp F11  &kp F12  &none   &none   &none      &kp END   &kp PAGE_DOWN  &kp PAGE_DOWN  &bt BT_SEL 1  &bt BT_SEL 2
 &to 0    &to 0                                                                       &key_repeat   &key_repeat
