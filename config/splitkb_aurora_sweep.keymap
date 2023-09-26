@@ -1,4 +1,4 @@
-/*
+¬t/*
  * Copyright (c) 2022 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -249,13 +249,13 @@
         };
 
         combo_MBLK {
-            bindings = <&kp A>;
+            bindings = <&mkp MB3>;
             key-positions = <30 31>;
             layers = <6>;
         };
 
         combo_MBCLK2 {
-            bindings = <&kp B>;
+            bindings = <&mkp MB3(>;
             key-positions = <32 33>;
             layers = <6>;
         };
