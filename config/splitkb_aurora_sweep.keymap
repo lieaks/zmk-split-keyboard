@@ -301,14 +301,23 @@
                 <&kp>,
                 <&kp>;
         };
-        td_mt1: tap_dance_mod_tap {
+        td_arrow_layer: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
-                <&lt 3 BACKSPACE>,
+                <&kp BACKSPACE>,
                 <&kp BACKSPACE>;
+        };
+        td_arrow_layer: td_nav_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "td_arrow_layer";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+            quick-tap-ms = <225>;
+            bindings = <&mo>, <&td_arrow_layer>;
         };
     };
 
@@ -320,7 +329,7 @@
 &kp Y         &kp C        &kp L        &kp M          &kp K      &td LG(Z) Z  &kp F          &kp U        &kp COMMA    &kp SQT
 &gqt LCTRL I  &gqt LALT S  &gqt LGUI R  &gqt LSHIFT T  &lt 3 G    &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A  &gqt RCTRL O
 &kp Q         &kp V        &lt 6 W      &lt 3 D        &kp J      &kp B        &lt 6 H        &kp SLASH    &kp DOT      &kp X
-&lt 1 ESC     &td_mt1                                                                                      &lt 6 SPACE  &lt 2 ENTER
+&lt 1 ESC     &td_arrow_layer 3 BACKSPACE                                                                                      &lt 6 SPACE  &lt 2 ENTER
             >;
         };
 
