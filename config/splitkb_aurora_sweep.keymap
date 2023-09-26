@@ -329,9 +329,9 @@
                 <&kp SPACE>,
                 <&kp SPACE>;
         };
-        lt_mouse_layer: td_mouse_layer {
+        lt_mouse_layer: lt_mouse_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "td_mouse_layer";
+            label = "lt_mouse_layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
