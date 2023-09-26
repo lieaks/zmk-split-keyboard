@@ -324,7 +324,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mouse_layer";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings =
                 <&kp SPACE>,
                 <&kp SPACE>;
