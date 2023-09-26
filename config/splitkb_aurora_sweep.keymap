@@ -312,7 +312,7 @@
         };
         lt_arrow_layer: td_nav_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "td_arrow_layer";
+            label = "lt_arrow_layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
