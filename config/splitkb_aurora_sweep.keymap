@@ -255,7 +255,7 @@
         };
 
         combo_MBCLK2 {
-            bindings = <&mkp MB3(>;
+            bindings = <&mkp MB3>;
             key-positions = <32 33>;
             layers = <6>;
         };
