@@ -301,6 +301,18 @@
                 <&kp>,
                 <&kp>;
         };
+        gqt2: global-quick-tap2 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "GLOBAL_QUICK_TAP_2";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <160>;
+            #global-quick-tap;
+            bindings =
+                <&lt>,
+                <&kp>;
+        };
     };
 
     keymap {
@@ -311,7 +323,7 @@
 &kp Y         &kp C            &kp L        &kp M          &kp K      &td LG(Z) Z  &kp F          &kp U        &kp COMMA    &kp SQT
 &gqt LCTRL I  &gqt LALT S      &gqt LGUI R  &gqt LSHIFT T  &lt 3 G    &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A  &gqt RCTRL O
 &kp Q         &kp V            &lt 6 W      &lt 3 D        &kp J      &kp B        &lt 6 H        &kp SLASH    &kp DOT      &kp X
-&lt 1 ESC     &gqt 3 BACKSPACE                                                                                  &gqt 6 SPACE  &lt 2 ENTER
+&lt 1 ESC     &gqt2 3 BACKSPACE                                                                                  &gqt2 6 SPACE  &lt 2 ENTER
             >;
         };
 
