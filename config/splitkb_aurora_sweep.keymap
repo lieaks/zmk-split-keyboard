@@ -301,9 +301,9 @@
                 <&kp>,
                 <&kp>;
         };
-        td_arrow_layer: tap_dance_mod_tap {
+        td_arrow_layer: td_arrow_layer {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
+            label = "td_arrow_layer";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
@@ -315,9 +315,28 @@
             label = "td_arrow_layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <250>;
-            quick-tap-ms = <225>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <160>;
             bindings = <&mo>, <&td_arrow_layer>;
+        };
+
+        td_mouse_layer: td_mouse_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_mouse_layer";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings =
+                <&kp SPACE>,
+                <&kp SPACE>;
+        };
+        lt_mouse_layer: td_mouse_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "td_mouse_layer";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <160>;
+            bindings = <&mo>, <&td_mouse_layer>;
         };
     };
 
@@ -329,7 +348,7 @@
 &kp Y         &kp C        &kp L        &kp M          &kp K      &td LG(Z) Z  &kp F          &kp U        &kp COMMA    &kp SQT
 &gqt LCTRL I  &gqt LALT S  &gqt LGUI R  &gqt LSHIFT T  &lt 3 G    &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A  &gqt RCTRL O
 &kp Q         &kp V        &lt 6 W      &lt 3 D        &kp J      &kp B        &lt 6 H        &kp SLASH    &kp DOT      &kp X
-&lt 1 ESC     &lt_arrow_layer 3 BACKSPACE                                                                                      &lt 6 SPACE  &lt 2 ENTER
+&lt 1 ESC     &lt_arrow_layer 3 BACKSPACE                                                                                      &lt_mouse_layer 6 SPACE  &lt 2 ENTER
             >;
         };
 
