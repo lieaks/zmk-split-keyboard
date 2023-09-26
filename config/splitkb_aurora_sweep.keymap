@@ -305,7 +305,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_arrow_layer";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <160>;
             bindings =
                 <&kp BACKSPACE>,
                 <&kp BACKSPACE>;
@@ -316,7 +316,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <150>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <100>;
             bindings = <&mo>, <&td_arrow_layer>;
         };
 
@@ -324,7 +324,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "td_mouse_layer";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <160>;
             bindings =
                 <&kp SPACE>,
                 <&kp SPACE>;
@@ -335,7 +335,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <150>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <100>;
             bindings = <&mo>, <&td_mouse_layer>;
         };
     };
