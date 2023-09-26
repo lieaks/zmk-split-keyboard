@@ -315,8 +315,8 @@
             label = "lt_arrow_layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <50>;
-            quick-tap-ms = <160>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
             bindings = <&mo>, <&td_arrow_layer>;
         };
 
@@ -334,8 +334,8 @@
             label = "lt_mouse_layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <50>;
-            quick-tap-ms = <160>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
             bindings = <&mo>, <&td_mouse_layer>;
         };
     };
