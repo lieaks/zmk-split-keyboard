@@ -316,9 +316,10 @@
             flavor = "tap-preferred";
             tapping-term-ms = <250>;
             quick-tap-ms = <225>;
-            bindings = <&mo>, <&td_arrow_layer>;
+            bindings =
+                <&mo>,
+                <&td_arrow_layer>;
         };
-
         td_mouse_layer: td_mouse_layer {
             compatible = "zmk,behavior-tap-dance";
             label = "td_mouse_layer";
@@ -335,7 +336,9 @@
             flavor = "tap-preferred";
             tapping-term-ms = <250>;
             quick-tap-ms = <225>;
-            bindings = <&mo>, <&td_mouse_layer>;
+            bindings =
+                <&mo>,
+                <&td_mouse_layer>;
         };
     };
 
@@ -344,10 +347,10 @@
 
         base {
             bindings = <
-&kp Y         &kp C        &kp L        &kp M          &kp K      &td LG(Z) Z  &kp F          &kp U        &kp COMMA    &kp SQT
-&gqt LCTRL I  &gqt LALT S  &gqt LGUI R  &gqt LSHIFT T  &lt 3 G    &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A  &gqt RCTRL O
-&kp Q         &kp V        &lt 6 W      &lt 3 D        &kp J      &kp B        &lt 6 H        &kp SLASH    &kp DOT      &kp X
-&lt 1 ESC     &lt 3 BACKSPACE                                                                                      &lt_mouse_layer 6 SPACE  &lt 2 ENTER
+&kp Y         &kp C            &kp L        &kp M          &kp K      &td LG(Z) Z  &kp F          &kp U        &kp COMMA                &kp SQT
+&gqt LCTRL I  &gqt LALT S      &gqt LGUI R  &gqt LSHIFT T  &lt 3 G    &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A              &gqt RCTRL O
+&kp Q         &kp V            &lt 6 W      &lt 3 D        &kp J      &kp B        &lt 6 H        &kp SLASH    &kp DOT                  &kp X
+&lt 1 ESC     &lt 3 BACKSPACE                                                                                  &lt_mouse_layer 6 SPACE  &lt 2 ENTER
             >;
         };
 
@@ -373,19 +376,19 @@
 
         Arrow {
             bindings = <
-&kp F1         &kp F2        &kp F3        &kp F4          &kp F5     &kp HOME  &none  &none  &kp PSCRN    &kp PAGE_UP
-&gqt LCTRL F6  &gqt LALT F7  &gqt LGUI F8  &gqt LSHIFT F9  &kp F10    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT    &kp PAGE_DOWN
-&kp F11        &kp F12       &none         &none           &none      &kp END   &none          &none        &none        &kp DEL
-&to 0          &to 0                                                                                        &key_repeat  &key_repeat
+&kp F1         &kp F2        &kp F3        &kp F4          &kp F5     &kp HOME  &none     &none   &kp PSCRN    &kp PAGE_UP
+&gqt LCTRL F6  &gqt LALT F7  &gqt LGUI F8  &gqt LSHIFT F9  &kp F10    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT    &kp PAGE_DOWN
+&kp F11        &kp F12       &none         &none           &none      &kp END   &none     &none   &none        &kp DEL
+&to 0          &to 0                                                                              &key_repeat  &key_repeat
             >;
         };
 
         sym+num {
             bindings = <
-&trans  &trans         &kp LS(LA(R))  &trans         &trans    &kp LA(LS(P))  &kp LA(LS(N))  &kp LA(LS(E))  &kp LA(LS(A))  &trans
-&trans  &kp LA(LS(I))  &kp LA(LS(S))  &kp LA(LS(T))  &trans    &kp LC(LA(P))  &kp LC(LA(N))  &kp LC(LA(E))  &kp LC(LA(A))  &trans
-&trans  &trans         &trans         &trans         &trans    &trans         &kp LA(N)      &trans         &trans         &trans
-&trans  &trans                                                                                              &trans         &trans
+&trans  &trans         &kp LS(LA(R))  &trans         &trans    &kp LA(LS(P))      &kp LA(LS(N))  &kp LA(LS(E))  &kp LA(LS(A))  &trans
+&trans  &kp LA(LS(I))  &kp LA(LS(S))  &kp LA(LS(T))  &trans    &kp LC(LA(P))      &kp LC(LA(N))  &kp LC(LA(E))  &kp LC(LA(A))  &trans
+&trans  &trans         &trans         &trans         &trans    &kp LC(LA(LS(P)))  &kp LA(N)      &trans         &trans         &trans
+&trans  &trans                                                                                                  &trans         &trans
             >;
         };
 
@@ -400,10 +403,10 @@
 
         mouse {
             bindings = <
-&mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &none    &none  &none             &mmv MOVE_UP    &mwh SCROLL_UP   &none
-&mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &none    &none  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
-&none             &none             &none           &mkp MB3              &none    &none  &none             &none           &none            &none
-&mkp MB2          &mkp MB1                                                                                               &mkp MB1         &mkp MB2
+&mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &none    &none  &none           &mmv MOVE_UP    &mwh SCROLL_UP   &none
+&mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &none    &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+&none             &none             &none           &mkp MB3           &none    &none  &none           &none           &none            &none
+&mkp MB2          &mkp MB1                                                                                             &mkp MB1         &mkp MB2
             >;
         };
     };
