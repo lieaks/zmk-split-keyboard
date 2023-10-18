@@ -385,7 +385,7 @@
 
         sym+num {
             bindings = <
-&trans  &trans         &kp LS(LA(R))  &trans         &trans    &kp LA(LS(P))      &kp LA(LS(N))  &kp LA(LS(E))  &kp LA(LS(A))  &trans
+&trans  &none         &kp LS(LA(R))  &trans         &trans    &kp LA(LS(P))      &kp LA(LS(N))  &kp LA(LS(E))  &kp LA(LS(A))  &trans
 &trans  &kp LA(LS(I))  &kp LA(LS(S))  &kp LA(LS(T))  &trans    &kp LC(LA(P))      &kp LC(LA(N))  &kp LC(LA(E))  &kp LC(LA(A))  &trans
 &trans  &trans         &trans         &trans         &trans    &kp LC(LA(LS(P)))  &kp LC(LA(LS(N)))  &kp LC(LA(LS(E)))    &kp LC(LA(LS(A)))    &trans
 &trans  &trans                                                                                                  &trans         &trans
