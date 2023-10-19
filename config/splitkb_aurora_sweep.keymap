@@ -204,7 +204,7 @@
 
         combo_repeat {
             timeout-ms = <30>;
-            key-positions = <>;
+            key-positions = <12 13>;
             bindings = <&key_repeat>;
         };
 
