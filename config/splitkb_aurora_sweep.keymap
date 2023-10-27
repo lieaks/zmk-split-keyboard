@@ -396,7 +396,7 @@
             bindings = <
 &trans  &o_circ  &trans   &u_grave  &trans    &trans  &trans  &trans   &trans  &trans
 &trans  &e_circ  &e_aigu  &e_grave  &trans    &trans  &trans  &trans  &e_circ  &trans
-&trans  &i_circ  &trans   &a_grave  &trans    &trans  &a_grave  &trans   &i_circ  &trans
+&trans  &i_circ  &trans   &a_grave  &trans    &trans  &trans  &trans   &i_circ  &trans
 &trans  &trans                                                           &trans   &trans
             >;
         };
