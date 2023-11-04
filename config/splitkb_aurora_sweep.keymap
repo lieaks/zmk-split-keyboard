@@ -360,7 +360,7 @@
 &kp UNDER  &gqt LALT MINUS  &gqt LGUI LS(EQUAL)  &gqt LSHIFT EQUAL  &kp HASH    &kp PIPE   &kp COLON   &kp LPAR  &kp RPAR   &kp QMARK
 &kp CARET  &kp SLASH        &kp ASTRK            &kp BSLH           &none       &kp TILDE  &kp DOLLAR  &kp LBRC  &kp RBRC   &kp AT
 &lt 1 ESC  &kp BACKSPACE                                                                                         &kp SPACE  &lt 2 ENTER
-            >;e
+            >;
         };
 
         NUM {
