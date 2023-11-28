@@ -246,13 +246,14 @@
 
         combo_MBCLK2 {
             bindings = <&mkp MB3>;
-            key-positions = <32 33>;
+            key-positions = <>;
             layers = <6>;
         };
 
         sticky_meh {
             bindings = <&sk LS(LA(LG(LCTRL)))>;
-            key-positions = <22 23>;
+            key-positions = <30 31>;
+            layers = <0>;
         };
 
         // 0  1  2  3  4        5  6  7  8  9
@@ -337,7 +338,7 @@
             bindings = <
 &mt LC(LS(LA(LGUI))) Y  &kp C            &kp L        &kp M          &kp K    &td LG(Z) Z  &kp F          &kp U        &kp COMMA                &kp SQT
 &gqt LCTRL I            &gqt LALT S      &gqt LGUI R  &gqt LSHIFT T  &kp G    &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A              &gqt RCTRL O
-&mt LC(LS(LA(LGUI))) Q  &kp V            &kp W        &kp D        &kp J    &kp B        &lt 6 H        &kp SLASH    &kp DOT                  &kp X
+&mt LC(LS(LA(LGUI))) Q  &kp V            &kp W        &kp D          &kp J    &kp B        &lt 6 H        &kp SLASH    &kp DOT                  &kp X
 &lt 1 ESC               &lt 3 BACKSPACE                                                                                &lt_mouse_layer 6 SPACE  &lt 2 ENTER
             >;
         };
