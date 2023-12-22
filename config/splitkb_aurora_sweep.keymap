@@ -16,6 +16,9 @@
     flavor = "tap-preferred";
     tapping_term_ms = <200>;
 };
+&lt {}
+    tapping_term_ms = <150>;
+};
 
 / {
     macros {
