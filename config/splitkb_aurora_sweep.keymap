@@ -262,7 +262,7 @@
 
         enter_on_pinky {
             bindings = <&kp ENTER>;
-            key-positions = <18 19>;
+            key-positions = <18 16>;
         };
 
         // 0  1  2  3  4        5  6  7  8  9
