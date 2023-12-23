@@ -343,7 +343,7 @@
 &mt LC(LS(LA(LGUI))) Y  &kp C            &kp L        &kp M          &kp K    &td LG(Z) Z  &kp F          &kp U        &kp COMMA                &kp SQT
 &gqt LCTRL I            &gqt LALT S      &gqt LGUI R  &gqt LSHIFT T  &mt LC(LS(LA(LGUI))) G     &mt LC(LS(LA(LGUI))) P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A              &gqt RCTRL O
 &mt LC(LS(LA(LGUI))) Q  &kp V            &kp W        &kp D          &kp J    &kp B        &kp H           &kp SLASH    &kp DOT                  &kp X
-&lt 1 ESC               &lt 3 BACKSPACE                                                                                &lt_mouse_layer 6 SPACE  &lt 2 ENTER
+&lt 1 BACKSPACE               &lt 3 BACKSPACE                                                                                &lt_mouse_layer 6 SPACE  &lt 2 BACKSPACE
             >;
         };
 
