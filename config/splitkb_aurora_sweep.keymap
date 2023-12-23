@@ -260,11 +260,6 @@
             layers = <0>;
         };
 
-        enter_on_pinky {
-            bindings = <&kp ENTER>;
-            key-positions = <18 16>;
-        };
-
         // 0  1  2  3  4        5  6  7  8  9
         // 10 11 12 13 14       15 16 17 18 19
         // 20 21 22 23 24       25 26 27 28 29
@@ -345,10 +340,10 @@
 
         base {
             bindings = <
-&mt LC(LS(LA(LGUI))) Y  &kp C            &kp L        &kp M          &kp K                     &td LG(Z) Z             &kp F          &kp U        &kp COMMA                &kp SQT
-&gqt LCTRL I            &gqt LALT S      &gqt LGUI R  &gqt LSHIFT T  &mt LC(LS(LA(LGUI))) G    &mt LC(LS(LA(LGUI))) P  &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A              &gqt RCTRL O
-&mt LC(LS(LA(LGUI))) Q  &kp V            &kp W        &kp D          &kp J                     &kp B                   &kp H          &kp SLASH    &kp DOT                  &kp X
-&lt 1 BACKSPACE         &lt 3 BACKSPACE                                                                                                            &lt_mouse_layer 6 SPACE  &lt 2 SPACE
+&mt LC(LS(LA(LGUI))) Y  &kp C            &kp L        &kp M          &kp K    &td LG(Z) Z  &kp F          &kp U        &kp COMMA                &kp SQT
+&gqt LCTRL I            &gqt LALT S      &gqt LGUI R  &gqt LSHIFT T  &mt LC(LS(LA(LGUI))) G     &mt LC(LS(LA(LGUI))) P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A              &gqt RCTRL O
+&mt LC(LS(LA(LGUI))) Q  &kp V            &kp W        &kp D          &kp J    &kp B        &kp H           &kp SLASH    &kp DOT                  &kp X
+&lt 1 ESC               &lt 3 BACKSPACE                                                                                &lt_mouse_layer 6 SPACE  &lt 2 ENTER
             >;
         };
 
