@@ -256,7 +256,7 @@
 
         sticky_meh {
             bindings = <&sk LS(LA(LG(LCTRL)))>;
-            key-positions = <30 31>;
+            key-positions = <13 16>;
             layers = <0>;
         };
 
