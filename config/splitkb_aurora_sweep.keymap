@@ -342,7 +342,7 @@
             bindings = <
 &kp Y  &kp C            &kp L        &kp M          &kp K    &td LG(Z) Z  &kp F          &kp U        &kp COMMA                &kp SQT
 &gqt LCTRL I            &gqt LALT S      &gqt LGUI R  &gqt LSHIFT T  &kp G      &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A              &gqt RCTRL O
-&kp Q  &kp V            &kp W        &lt 3 D       &kp J    &kp B      &lt 6 H           &kp SLASH    &kp DOT                  &kp X
+&kp Q  &kp V            &kp W        &lt 3 D       &kp J    &kp B     &lt 6 H           &kp SLASH    &kp DOT                  &kp X
 &lt 1 ESC               &lt 3 BACKSPACE                                                                                &lt_mouse_layer 6 SPACE  &lt 2 ENTER
             >;
         };
