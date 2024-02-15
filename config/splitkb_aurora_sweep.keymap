@@ -396,8 +396,8 @@
 
         mouse {
             bindings = <
-&msc SCROLL_UP    &msc SCROLL_LEFT  &mmv MOVE_UP    &msc SCROLL_RIGHT  &none    &none  &none           &none     &none            &none 
-&msc SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &none    &none  &kp LSHIFT &kp LGUI  &kp LALT  &kp LCTRL
+&msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none    &none  &none           &none     &none            &none 
+&msc SCRL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &none    &none  &kp LSHIFT &kp LGUI  &kp LALT  &kp LCTRL
 &none             &none             &none           &mkp MB3           &none    &none  &none        &none           &none            &none
 &mkp MB2          &mkp MB1                                                                                             &mkp MB1         &mkp MB2
             >;

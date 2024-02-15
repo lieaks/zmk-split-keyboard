@@ -12,26 +12,6 @@
   delay-ms = <0>;                // 10
 };
 
-#define U_MOUSE_MOVE_MAX 1250       // 600
-#define U_MOUSE_SCROLL_MAX 22      // 10
-
-#undef MOVE_UP
-#undef MOVE_DOWN
-#undef MOVE_LEFT
-#undef MOVE_RIGHT
-#define MOVE_UP MOVE_Y(-U_MOUSE_MOVE_MAX)
-#define MOVE_DOWN MOVE_Y(U_MOUSE_MOVE_MAX)
-#define MOVE_LEFT MOVE_X(-U_MOUSE_MOVE_MAX)
-#define MOVE_RIGHT MOVE_X(U_MOUSE_MOVE_MAX)
-
-#undef SCROLL_UP
-#undef SCROLL_DOWN
-#undef SCROLL_LEFT
-#undef SCROLL_RIGHT
-#define SCROLL_UP SCROLL_Y(U_MOUSE_SCROLL_MAX)
-#define SCROLL_DOWN SCROLL_Y(-U_MOUSE_SCROLL_MAX)
-#define SCROLL_LEFT SCROLL_X(-U_MOUSE_SCROLL_MAX)
-#define SCROLL_RIGHT SCROLL_X(U_MOUSE_SCROLL_MAX)
 
 #define U_BTN1 &mkp MB1
 #define U_BTN2 &mkp MB2
@@ -40,7 +20,7 @@
 #define U_MS_D &mmv MOVE_DOWN
 #define U_MS_L &mmv MOVE_LEFT
 #define U_MS_R &mmv MOVE_RIGHT
-#define U_WH_U &msc SCROLL_UP
-#define U_WH_D &msc SCROLL_DOWN
-#define U_WH_L &msc SCROLL_LEFT
-#define U_WH_R &msc SCROLL_RIGHT
+#define U_WH_U &msc SCRL_UP
+#define U_WH_D &msc SCRL_DOWN
+#define U_WH_L &msc SCRL_LEFT
+#define U_WH_R &msc SCRL_RIGHT
