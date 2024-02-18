@@ -10,8 +10,8 @@ manifest:
       url-base: https://github.com/caksoylar
   projects:
     - name: zmk
-      remote: caksoylar
-      revision: feat/mouse-keys-3.2
+      remote: urob
+      revision: main
       import: app/west.yml
   self:
     path: config
