@@ -197,10 +197,10 @@
             layers = <0>;
         };
 
-        combo_repeat {
+        combo_backspace {
             timeout-ms = <30>;
             key-positions = <12 13>;
-            bindings = <&key_repeat>;
+            bindings = <&kp BACKSPACE>;
         };
 
         combo_esc_re {
