@@ -291,8 +291,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "GLOBAL_QUICK_TAP";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            flavor = "balanced";
+            tapping-term-ms = <190>;
             quick-tap-ms = <160>;
             #global-quick-tap;
             bindings = <&kp>, <&kp>;
@@ -361,6 +361,7 @@
 &none          &kp N7         &kp N8        &kp N9          &kp LS(LG(N3))    &kp C_PP      &kp C_VOL_DN          &kp C_VOL_UP        &kp C_PREV  &kp C_NEXT
 &gqt LCTRL N0  &gqt LALT N4   &gqt LGUI N5  &gqt LSHIFT N6  &kp LS(LG(N4))    &none         &gqt RSHIFT C_BRI_DN  &gqt RGUI C_BRI_UP  &kp RALT    &gqt RCTRL DEL
 &kp GLOBE         &kp N1         &kp N2        &kp N3          &kp LS(LG(N5))    &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3        &none       &bt BT_CLR
+
 &lt 1 N0       &kp BACKSPACE                                                                                                          &kp SPACE   &lt 2 ENTER
             >;
 
