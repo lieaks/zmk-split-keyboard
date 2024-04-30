@@ -24,70 +24,48 @@
 / {
     macros {
         e_aigu: e_aigu {
-            label = "e_aigu";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp RA(E) &kp E>;
         };
 
         e_grave: e_grave {
-            label = "e_grave";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp RA(GRAVE) &kp E>;
         };
 
         e_circ: e_circ {
-            label = "e_circ";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp RA(I) &kp E>;
         };
 
         a_grave: a_grave {
-            label = "a_grave";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp RA(GRAVE) &kp A>;
-        };
-
-        u_grave: u_grave {
-            label = "u_grave";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp RA(GRAVE) &kp U>;
         };
 
         o_circ: o_circ {
-            label = "o_circ";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp RA(I) &kp O>;
         };
 
         i_circ: i_circ {
-            label = "i_circ";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp RA(I) &kp I>;
         };
 
         warpd_hint: warpd_hint {
-            label = "warpd_hint";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LG(LA(X))>;
-        };
-
-        warpd_normal: warp_normal {
-            label = "warpd_normal";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LG(LA(C))>;
         };
 
         sym2macro: behavior_macro_1 {
-            label = "macro1";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&sl 1>;
@@ -269,7 +247,6 @@
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick_tap_ms = <0>;
@@ -279,7 +256,6 @@
 
         td: tapdance {
             compatible = "zmk,behavior-hold-tap";
-            label = "TAPDANCE";
             #binding-cells = <2>;
             tapping-term-ms = <180>;
             quick_tap_ms = <0>;
@@ -289,7 +265,6 @@
 
         gqt: global-quick-tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "GLOBAL_QUICK_TAP";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <190>;
@@ -300,7 +275,6 @@
 
         td_arrow_layer: td_arrow_layer {
             compatible = "zmk,behavior-tap-dance";
-            label = "td_arrow_layer";
             #binding-cells = <0>;
             tapping-term-ms = <180>;
             bindings = <&kp BACKSPACE>, <&kp BACKSPACE>;
@@ -308,7 +282,6 @@
 
         lt_arrow_layer: td_nav_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "lt_arrow_layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <250>;
@@ -318,7 +291,6 @@
 
         td_mouse_layer: td_mouse_layer {
             compatible = "zmk,behavior-tap-dance";
-            label = "td_mouse_layer";
             #binding-cells = <0>;
             tapping-term-ms = <180>;
             bindings = <&kp SPACE>, <&kp SPACE>;
@@ -326,7 +298,6 @@
 
         lt_mouse_layer: lt_mouse_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "lt_mouse_layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <250>;
@@ -364,8 +335,6 @@
 
 &lt 1 N0       &kp BACKSPACE                                                                                                          &kp SPACE   &lt 2 ENTER
             >;
-
-            label = "right";
         };
 
         Arrow {
