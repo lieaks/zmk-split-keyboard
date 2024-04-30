@@ -5,17 +5,13 @@
  */
 
 #include <behaviors.dtsi>
-#include "mouse.dtsi"
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include "mouse.dtsi"
 
 #define MAC 0
 #define SYM 1
 
-&mt {
-    flavor = "tap-preferred";
-    tapping_term_ms = <200>;
-};
 
 &lt {
     tapping_term_ms = <150>;
@@ -311,9 +307,9 @@
 
         base {
             bindings = <
-&kp Y  &kp C            &kp L        &kp M          &kp K    &td LG(Z) Z  &kp F          &kp U        &kp COMMA                &kp SQT
+&kp Y  &kp C            &kp L        &kp M          &kp K    &kp Z  &kp F          &kp U        &kp COMMA                &kp SQT
 &gqt LCTRL I            &gqt LALT S      &gqt LGUI R  &gqt LSHIFT T  &kp G      &kp P        &gqt RSHIFT N  &gqt RGUI E  &gqt RALT A             &gqt RCTRL O
-&kp Q  &kp V            &kp W        &lt 3 D        &kp J    &kp B     &lt 6 H           &kp SLASH    &kp DOT                  &kp X
+&kp Q  &kp V            &kp W        &kp D        &kp J    &kp B     &kp H           &kp SLASH    &kp DOT                  &kp X
 &lt 1 ESC               &lt 3 BACKSPACE                                                                                &lt_mouse_layer 6 SPACE  &lt 2 ENTER
             >;
         };
@@ -331,7 +327,7 @@
             bindings = <
 &none          &kp N7         &kp N8        &kp N9          &kp LS(LG(N3))    &kp C_PP      &kp C_VOL_DN          &kp C_VOL_UP        &kp C_PREV  &kp C_NEXT
 &gqt LCTRL N0  &gqt LALT N4   &gqt LGUI N5  &gqt LSHIFT N6  &kp LS(LG(N4))    &none         &gqt RSHIFT C_BRI_DN  &gqt RGUI C_BRI_UP  &kp RALT    &gqt RCTRL DEL
-&kp GLOBE         &kp N1         &kp N2        &kp N3          &kp LS(LG(N5))    &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3        &none       &bt BT_CLR
+&none   &kp N1         &kp N2        &kp N3          &kp LS(LG(N5))    &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3        &none       &bt BT_CLR
 
 &lt 1 N0       &kp BACKSPACE                                                                                                          &kp SPACE   &lt 2 ENTER
             >;
