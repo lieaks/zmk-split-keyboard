@@ -10,7 +10,6 @@
 #include "mouse.dtsi"
 
 #define MAC 0
-#define SYM 1
 
 
 &lt {
